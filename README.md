@@ -5,4 +5,4 @@ LordRoop - Jagroop Vij
 
 aidanlin4 - Aidan Lin
 
-Akshit Prathipati - Akshit Prathipati
+Akshit Prathipati - Ak Prathipati
