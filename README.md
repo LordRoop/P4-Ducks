@@ -14,6 +14,8 @@ We are trying to create a rating system for teachers. We will be taking data tha
 
 # Links
 Project Plan: https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing 
+Scrum Board: https://github.com/LordRoop/P4-Ducks/projects/1
 
 # Log 
-12/11/20: GitHub repository set up. Updated Readme. Scrumboard Created. Project plan made: https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing   
+* 12/11/20: GitHub repository set up. Updated Readme. Scrumboard Created. Project plan made: https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing
+Big ticket ideas planned: Comments, Liking comments, Star Reviews, Search bar feature
