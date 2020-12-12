@@ -1,5 +1,5 @@
 # P4-Ducks Members
-Navodit Maheshwari - Navodit Maheshwari
+Navodit1603 - Navodit Maheshwari
 
 LordRoop - Jagroop Vij
 
