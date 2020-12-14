@@ -1,0 +1,235 @@
+<html>
+
+{% set source = projects.get_source() %} <!-- source of project dict -->
+{% set name = source["name"] %}
+{% set github = source["github"] %}
+{% set youtube = source["youtube"] %}
+
+{% set greeting = data["greeting"] %}
+{% set doa = data["doa"] %}
+{% set doah = data["doah"] %}
+{% set job = data["job"] %}
+{% set embed = data["embed"] %}
+{% set gist = data["gist"] %}
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!--
+        <a class="navbar-brand" href="#">Gorillas</a>
+        -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="navbar-left"><img src="{{url_for('static', filename='gorilla(1).png')}}" style="width:50px;height:50px;"></a>
+                </li>
+                <li class="nav-link active">
+                    <a class="nav-link" href="http://70.95.189.45:5000/"> Home </a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="/projects"> Projects </a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="/journals"> Journals </a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="/pedro"> Pedro Repo </a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="/roop"> Roop Repo </a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="/arul"> Arul Repo </a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="/manuel"> Manuel Repo </a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="/colin"> Colin Repo </a>
+                </li>
+
+                <li class="nav-link dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Repositories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/pedro">Pedro</a>
+                        <a class="dropdown-item" href="/roop">Roop</a>
+                        <a class="dropdown-item" href="/arul">Arul</a>
+                        <a class="dropdown-item" href="/manuel">Manuel</a>
+                        <a class="dropdown-item" href="/colin">Colin</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <head>
+
+        <title> Pedro, Roop, Colin, Manuel, Arul | Home </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+        <div class="container-fluid">
+
+            <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">
+
+                <div class="col-3" style="text-align: right;">
+
+                    <a href={{github}} target="_blank"><i class="fa fa-github"></i></a>
+                    <!--
+                    <a href="linkedin" target="_blank"><i class="fa fa-linkedin" ></i></a>
+                    <a href="https://youtube.com/channel/UCiUOsPkjUdlxywd-E7GTicw" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                    <a href="twitter" target="_blank"><i class="fa fa-twitter"></i></a>   
+                    -->
+                    <h5>Pedro, Roop, Colin, Manuel, Arul</h5>
+                    
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center"><img src="{{url_for('static', filename='gorilla(3).png')}}" style="width:150px;height:150px;">
+                <!--<h1>Gorillas</h1>-->
+            </div>
+
+            <div class="row justify-content-center" style="padding-top: 5%; padding-bottom: 1%; text-align: center;">
+                <h3>Hello! Welcome to the {{name}} Website</h3>
+            </div>
+            <div class="row justify-content-center" style="padding-top: 0%; padding-bottom: 1%; text-align: center;">
+                <h3>{{greeting}}<br></h3>
+            </div>
+            <div class="row justify-content-center" style="padding-top: 4%; padding-bottom: 0%; text-align: center;">
+                <h3>The time now is {{doa}}</h3>
+            </div>
+            <div class="row justify-content-center" style="padding-top: 0%; padding-bottom: 1%; text-align: center;">
+                {% if doah>17 or doah<5 %}
+                <h3>It's late and the Gorillas are away. zzzzzzzzzz.....</h3>
+                {% else %}
+                <h3>The sun shines on our backs, and the Gorillas are up and about.</h3>
+                {% endif %}
+
+            </div>
+
+
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    <!--
+    <div class="footer">
+        <p>This is my test footer</p>
+    </div>
+    -->
+    <script src="https://threejs.org/build/three.js"></script>
+    <script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
+    <script>
+    VANTA.CELLS({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 1000.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      color1: 0x7071d,
+      color2: 0x3032f,
+      size: 1.20,
+      speed: 3.30
+    })
+</script>
+
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+            color: white;
+        }
+
+        h1{
+            font-size: 5em;
+
+        }
+
+        h3{
+            text-align: center;
+            font-size: 2em;
+            font-family: "Lucida Console", Courier, monospace;
+        }
+
+
+        .fa{
+            font-size: 3em;
+            letter-spacing: 1em;
+            transition: all .2s;
+            color: white;
+        }
+
+        .fa:hover{
+            transform: translateY(10px);
+        }
+
+        .fa-youtube-play:hover{
+            color: #cc0000;
+        }
+
+        .fa-twitter:hover{
+            color: #1da1f2;
+        }
+
+        .fa-github:hover{
+            color: #000000;
+        }
+
+
+        .btn:link,
+        .btn:visited {
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 15px 40px;
+            display: inline-block;
+            border-radius: 100px;
+            transition: all .2s;
+            position: absolute;
+            color: white;
+            font-size: 2.5em;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+        }
+
+        .btn:active {
+            transform: translateY(-1px);
+            box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+        }
+        <!--
+        .footer {
+            text-align: right;
+            position: absolute;
+            bottom: 0;
+        }
+        -->
+        
+    </style>
+
+</html>
+<!--
+PNG:
+Icons made by <a href="https://creativemarket.com/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+-->
+
+<!--
+SVG:
+Icons made by <a href="https://creativemarket.com/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+-->
