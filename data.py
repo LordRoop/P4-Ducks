@@ -35,7 +35,7 @@ class Link():
 
 def setup():
     #Source Data
-    name = "Gorillas"
+    name = "Ducks"
     github = "https://github.com/LordRoop/P5_Gorillas-Portfolio#readme"
     youtube = "https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q?view_as=subscriber"
     source = {"name": name, "github": github, "youtube": youtube}
@@ -58,7 +58,7 @@ def setup():
     return projects
 
 def runtime():
-    greeting = "Here you find the repositories for all our projects; our journals, where we document coding progress; and Individual pages with personal information and our coding experiences. Explore!!"
+    greeting = "Hi, Welcome to the P4-Ducks website."
     doa = time.strftime("%Y-%m-%d %H:%M", time.localtime())
     doah = int(time.strftime("%H", time.localtime()))
     job = "Runtime Link"
