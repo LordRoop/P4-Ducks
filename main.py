@@ -9,15 +9,25 @@ def home():
     return render_template("home.html", projects=data.setup(), data=data.runtime())
 
 
-@app.route('/projects')
+@app.route('/Math Department')
 def projects():
     return render_template("projects.html")
 
+@app.route('/English Literature Department')
+def projects():
+    return render_template("projects.html")
 
-@app.route('/journals')
+@app.route('/Arts Department')
 def journals():
     return render_template("journals.html")
 
+@app.route('/Science Department')
+def projects():
+    return render_template("projects.html")
+
+@app.route('/Electives')
+def projects():
+    return render_template("projects.html")
 
 
 
