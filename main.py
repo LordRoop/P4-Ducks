@@ -10,24 +10,24 @@ def home():
 
 
 @app.route('/Math Department')
-def projects():
-    return render_template("projects.html")
+def math():
+    return render_template("math.html")
 
 @app.route('/English Literature Department')
-def projects():
-    return render_template("projects.html")
+def english():
+    return render_template("english.html")
 
 @app.route('/Arts Department')
-def journals():
-    return render_template("journals.html")
+def arts():
+    return render_template("arts.html")
 
 @app.route('/Science Department')
-def projects():
-    return render_template("projects.html")
+def science():
+    return render_template("science.html")
 
 @app.route('/Electives')
-def projects():
-    return render_template("projects.html")
+def electives():
+    return render_template("electives.html")
 
 
 

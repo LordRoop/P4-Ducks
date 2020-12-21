@@ -48,7 +48,7 @@ def setup():
     project2 =  "Flask Project"
     projlinks2 = [
         Link("Project Plan", "https://docs.google.com/document/d/16C-jplZo7MnuTXzWabPOHMUYzwajv9OjvTR47Zf347o"),
-        Link("Github", "https://github.com/LordRoop/P5_Gorillas-Portfolio")
+        Link("Github", "https://github.com/LordRoop/P4-Ducks")
     ]
     #Project Objects
     proj1 = Project(project1, projlinks1)
