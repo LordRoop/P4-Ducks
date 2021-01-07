@@ -13,19 +13,19 @@ def home():
 def math():
     return render_template("math.html")
 
-@app.route('/English Literature Department')
+@app.route('/english')
 def english():
     return render_template("english.html")
 
-@app.route('/Arts Department')
+@app.route('/arts')
 def arts():
     return render_template("arts.html")
 
-@app.route('/Science Department')
+@app.route('/science')
 def science():
     return render_template("science.html")
 
-@app.route('/Electives')
+@app.route('/electives')
 def electives():
     return render_template("electives.html")
 
