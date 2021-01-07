@@ -18,7 +18,7 @@ def english():
     return render_template("english.html")
 
 @app.route('/art')
-def arts():
+def art():
     return render_template("art.html")
 
 @app.route('/science')
