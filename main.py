@@ -17,17 +17,17 @@ def math():
 def english():
     return render_template("english.html")
 
-@app.route('/arts')
+@app.route('/art')
 def arts():
-    return render_template("arts.html")
+    return render_template("art.html")
 
 @app.route('/science')
 def science():
     return render_template("science.html")
 
-@app.route('/electives')
-def electives():
-    return render_template("electives.html")
+@app.route('/elective')
+def elective():
+    return render_template("elective.html")
 
 
 
