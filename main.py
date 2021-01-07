@@ -9,7 +9,7 @@ def home():
     return render_template("home.html", projects=data.setup(), data=data.runtime())
 
 
-@app.route('/Math Department')
+@app.route('/math')
 def math():
     return render_template("math.html")
 
