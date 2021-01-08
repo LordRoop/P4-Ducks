@@ -1,4 +1,5 @@
-{% block content %}
+<html>
+
 <body>
 <center>
     <div class="card" style="width: 18rem;">
@@ -94,20 +95,86 @@
     </div>
 </center>
 </body>
-{% endblock %}
 
-<script src="three.r119.min.js"></script>
-<script src="vanta.waves.min.js"></script>
+
+<script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vanta.net.min.js') }}"></script>
+
 <script>
-VANTA.WAVES({
-  el: "#your-element-selector",
+VANTA.NET({
+  el: "body",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
+  minHeight: 2000.00,
+  minWidth: 2000.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  color: 0x0
+  color: 0x210a70,
+  backgroundColor: 0x20209
 })
 </script>
+
+<style>
+html, body {
+    margin: 0;
+    height: 100%;
+    color: white;
+}
+
+h1{
+    font-size: 5em;
+}
+
+
+.fa{
+    font-size: 3em;
+    letter-spacing: 1em;
+    transition: all .2s;
+    color: white;
+}
+
+.fa:hover{
+    transform: translateY(10px);
+}
+
+.fa-youtube-play:hover{
+    color: #cc0000;
+}
+
+.fa-twitter:hover{
+    color: #1da1f2;
+}
+
+.fa-github:hover{
+    color: #000000;
+}
+
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+    color: white;
+    font-size: 2.5em;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+
+</style>
+
+<</html>
