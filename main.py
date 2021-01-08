@@ -29,6 +29,9 @@ def science():
 def elective():
     return flask.render_template("elective.html")
 
+@app.route('/history')
+def history():
+    return flask.render_template("history.html")
 
 
 if __name__ == "__main__":
