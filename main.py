@@ -18,9 +18,9 @@ def english():
     return flask.render_template("english.html")
 
 
-@app.route('/art')
-def art():
-    return flask.render_template("art.html")
+@app.route('/language')
+def language():
+    return flask.render_template("language.html")
 
 @app.route('/science')
 def science():
@@ -33,6 +33,10 @@ def elective():
 @app.route('/history')
 def history():
     return flask.render_template("history.html")
+
+@app.route('/ens')
+def ens():
+    return flask.render_template("ens.html")
 
 
 if __name__ == "__main__":
