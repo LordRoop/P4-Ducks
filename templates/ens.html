@@ -1,10 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html>
 
+<body>
+<center>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Embrey Rielly</h5>
+            <p class="card-text">ENS</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Hanover Dale</h5>
+            <p class="card-text">English</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">McNeely Jake</h5>
+            <p class="card-text"ENS</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Mele Brianna</h5>
+            <p class="card-text">ENS</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Milanovich Suzanne</h5>
+            <p class="card-text">ENS</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Robinson Sona</h5>
+            <p class="card-text">ENS</p>
+        </div>
+    </div>
+    </center>
 </body>
-</html>
+
+
+<script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vanta.net.min.js') }}"></script>
+
+<script>
+VANTA.NET({
+  el: "body",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 2000.00,
+  minWidth: 2000.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x210a70,
+  backgroundColor: 0x20209
+})
+</script>
+
+<style>
+html, body {
+    margin: 0;
+    height: 100%;
+    color: white;
+}
+
+h1{
+    font-size: 5em;
+}
+
+
+.fa{
+    font-size: 3em;
+    letter-spacing: 1em;
+    transition: all .2s;
+    color: white;
+}
+
+.fa:hover{
+    transform: translateY(10px);
+}
+
+.fa-youtube-play:hover{
+    color: #cc0000;
+}
+
+.fa-twitter:hover{
+    color: #1da1f2;
+}
+
+.fa-github:hover{
+    color: #000000;
+}
+
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+    color: white;
+    font-size: 2.5em;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+
+</style>
+
+<</html>
