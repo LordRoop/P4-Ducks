@@ -17,9 +17,6 @@ def math():
 def english():
     return flask.render_template("english.html")
 
-@app.route('/history')
-def history():
-    return flask.render_template("history.html")
 
 @app.route('/art')
 def art():
