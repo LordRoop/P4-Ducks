@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="science without links">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/elective.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/elective.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/english.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/english.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/ens.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ens.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/language.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/language.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/math.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/science.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/science.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +33,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lfTsx8t8a6BVcfI0hfpxIWXfuA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,14 +48,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="P4-Ducks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="SDK_HOME" value="/usr/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -71,11 +69,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -111,6 +104,28 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i have to commit this to pull" />
     <option name="LAST_COMMIT_MESSAGE" value="i have to commit this to pull" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610396880519">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state x="184" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.817@0.25.1440.817" timestamp="1610396880519" />
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1610396917165">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1610396917165" />
+    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1610396917164">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1610396917164" />
+    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1610396917164">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1610396917164" />
+    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1610396917165">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state width="1398" height="209" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1610396917165" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
