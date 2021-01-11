@@ -22,7 +22,6 @@
     <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="science without links">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/math.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3" />
+      <option name="SDK_HOME" value="C:\Users\jagro\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -104,28 +103,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i have to commit this to pull" />
     <option name="LAST_COMMIT_MESSAGE" value="i have to commit this to pull" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="184" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610396880519">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state x="184" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.817@0.25.1440.817" timestamp="1610396880519" />
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1610396917165">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1610396917165" />
-    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1610396917164">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1610396917164" />
-    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1610396917164">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1610396917164" />
-    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1610396917165">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1610396917165" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
