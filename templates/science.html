@@ -1,5 +1,57 @@
 <html>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!--
+    <a class="navbar-brand" href="#">Ducks</a>
+    -->
 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="navbar-left"><img src="{{url_for('static', filename='duck.png')}}" style="width:50px;height:50px;"></a>
+            </li>
+            <li class="nav-link active">
+                <a class="nav-link" href="/home"> Home </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/math"> Math </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/english"> English </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="http://70.95.189.45:5000/" Science </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/language"> Foreign Language </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/history"> History </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/ens"> ENS </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/elective"> Electives </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/login"> Login </a>
+            </li>
+
+
+        </ul>
+    </div>
+</nav>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Science</title>
+</head>
 <body>
 <center>
     <div class="card" style="width: 18rem;">
@@ -70,23 +122,24 @@
 </body>
 
 
-<script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>
-<script src="{{ url_for('static', filename='vanta.net.min.js') }}"></script>
-
+<script src="https://threejs.org/build/three.js"></script>
+<script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
 <script>
-VANTA.NET({
-  el: "body",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 5000.00,
-  minWidth: 2000.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0x210a70,
-  backgroundColor: 0x20209
-})
+    VANTA.CELLS({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 1000.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      color1: 0x7071d,
+      color2: 0x3032f,
+      size: 1.20,
+      speed: 3.30
+    })
 </script>
+
 
 <style>
 html, body {
