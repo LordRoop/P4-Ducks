@@ -51,6 +51,10 @@ def login():
 @app.route('/registration')
 def registration():
     return flask.render_template("registration.html")
+@app.route('/Evaluate')
+def exaluate():
+    return flask.render_template("Evaluate.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True, port=' 5001', host='127.0.0.1')
