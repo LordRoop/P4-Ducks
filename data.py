@@ -58,7 +58,7 @@ def setup():
     return projects
 
 def runtime():
-    greeting = "Hi, Welcome to the P4-Ducks website."
+    greeting = "(Teacher Rating And Evaluation)"
     doa = time.strftime("%Y-%m-%d %H:%M", time.localtime())
     doah = int(time.strftime("%H", time.localtime()))
     job = "Runtime Link"
