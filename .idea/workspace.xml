@@ -19,22 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="science without links">
-      <change afterPath="$PROJECT_DIR$/static/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration.html" afterDir="false" />
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="Added evaluation page">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/duck.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/elective.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/elective.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/english.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/english.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/ens.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ens.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/language.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/language.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Evaluate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Evaluate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/math.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/science.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/science.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +64,14 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="mainnn" type="PythonConfigurationType" factoryName="Python">
       <module name="P4-Ducks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -112,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610084867306</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added evaluation page">
+      <created>1610663392540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610663392540</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added evaluation page">
+      <created>1610663483319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610663483319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -132,7 +136,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i have to commit this to pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="i have to commit this to pull" />
+    <MESSAGE value="Added evaluation page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added evaluation page" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="237" y="25" width="1024" height="817" key="#Project_Structure" timestamp="1610663534228">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state x="237" y="25" width="1024" height="817" key="#Project_Structure/0.25.1440.817@0.25.1440.817" timestamp="1610663534228" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1610666851523">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1610666851523" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1610666851523">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1610666851523" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1610666851522">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1610666851522" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1610666851523">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1610666851523" />
+    <state x="283" y="172" key="Vcs.Push.Dialog.v2" timestamp="1610663485959">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state x="283" y="172" key="Vcs.Push.Dialog.v2/0.25.1440.817@0.25.1440.817" timestamp="1610663485959" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
