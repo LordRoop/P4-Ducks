@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="Changed some code">
-      <change beforePath="$PROJECT_DIR$/templates/ens.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ens.html" afterDir="false" />
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="math page fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610736686531</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="math page fixed">
+      <created>1610744401707</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610744401707</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,37 +117,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i have to commit this to pull" />
     <MESSAGE value="Changed some code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed some code" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="237" y="25" width="1024" height="817" key="#Project_Structure" timestamp="1610736671872">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state x="237" y="25" width="1024" height="817" key="#Project_Structure/0.25.1440.817@0.25.1440.817" timestamp="1610736671872" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1610738218492">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1610738218492" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1610738218491">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1610738218491" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1610738218491">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1610738218491" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1610738218492">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1610738218492" />
-    <state x="349" y="171" key="Vcs.Push.Dialog.v2" timestamp="1610736690168">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state x="349" y="171" key="Vcs.Push.Dialog.v2/0.25.1440.817@0.25.1440.817" timestamp="1610736690168" />
-    <state x="550" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610736700443">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state x="550" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.817@0.25.1440.817" timestamp="1610736700443" />
+    <MESSAGE value="math page fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="math page fixed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
