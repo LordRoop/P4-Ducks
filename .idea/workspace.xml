@@ -19,24 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="Added evaluation page">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="science without links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Evaluate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Evaluate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/math.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,28 +39,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/static/CSS" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="mainnn" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="P4-Ducks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\jagro\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -102,25 +84,8 @@
       <option name="project" value="LOCAL" />
       <updated>1610084867306</updated>
     </task>
-    <task id="LOCAL-00002" summary="Added evaluation page">
-      <created>1610663392540</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1610663392540</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added evaluation page">
-      <created>1610663483319</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1610663483319</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -136,34 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i have to commit this to pull" />
-    <MESSAGE value="Added evaluation page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added evaluation page" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="237" y="25" width="1024" height="817" key="#Project_Structure" timestamp="1610663534228">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state x="237" y="25" width="1024" height="817" key="#Project_Structure/0.25.1440.817@0.25.1440.817" timestamp="1610663534228" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1610666851523">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1610666851523" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1610666851523">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1610666851523" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1610666851522">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1610666851522" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1610666851523">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1610666851523" />
-    <state x="283" y="172" key="Vcs.Push.Dialog.v2" timestamp="1610663485959">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state x="283" y="172" key="Vcs.Push.Dialog.v2/0.25.1440.817@0.25.1440.817" timestamp="1610663485959" />
+    <option name="LAST_COMMIT_MESSAGE" value="i have to commit this to pull" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
