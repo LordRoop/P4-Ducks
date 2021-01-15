@@ -36,7 +36,7 @@ class Link():
 def setup():
     #Source Data
     name = "Ducks"
-    github = "https://github.com/LordRoop/P5_Gorillas-Portfolio#readme"
+    github = "https://github.com/LordRoop/P4-Ducks/blob/main/README.md"
     youtube = "https://www.youtube.com/channel/UClIKOsDS5dsfzFA3zveDT3Q?view_as=subscriber"
     source = {"name": name, "github": github, "youtube": youtube}
     #Project Data
