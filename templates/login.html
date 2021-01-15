@@ -46,7 +46,7 @@
           box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
           margin-bottom: 30px;
         }
-        button {
+        input[type="button"] {
           padding: 19px 39px 18px 39px;
           color: #FFF;
           background-color: #4bc970;
@@ -73,9 +73,7 @@
 <body>
 
 <div class="container">
-    <div class="row justify-content-center"><img src="{{url_for('static', filename='duck.png')}}" style="width:100px;height:100px;">
-        <!--<h1>Ducks</h1>-->
-    </div>
+
     <div class="element">
         <div class="login">
             <script src="script.js"></script>
@@ -100,11 +98,11 @@
 
                         <tr>
                             <td>
-                                <button type="submit">Login</button>
+                                <input type="button" onclick="window.location.href='/';" value="Login" />
                             </td>
 
                             <td>
-                                <button type="submit">Create Account</button>
+                                <input type="button" onclick="window.location.href='/registration';" value="Register" />
                             </td>
                         </tr>
                         <table>
