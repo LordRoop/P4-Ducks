@@ -11,11 +11,14 @@
     <style>
          .container{
           position:relative;
-          width:90vw;
-          height: 90vh;
-          border: 3px solid white;
-          margin: auto;
+            position:absolute;
+            top: 0; bottom: 0; left: 0; right: 0;
+            text-align: center;
+            vertical-align: middle;
+            width: 50vw; height: 50vh;
+            color: black; font-size: 2rem;
         }
+
 
         .element{
           position:absolute;
@@ -32,10 +35,13 @@
           width: 50vw; height: 50vh;
           color: black; font-size: 2rem;
 
+
+
         }
-        input[type="text"],
+
         input[type="password"],
         input[type="submit"],
+        input[type="text"],
         textarea,
         select {
           background: rgba(255, 255, 255, 0.1);
@@ -215,7 +221,7 @@ p.show{
         <!-- made these fields required -->
         <legend><span class="number">1</span> Please Enter Honestly </legend>
         <label for="Teacher name">Teacher Name:</label>
-        <input type="text" id="Teacher name" name="user_name" required placeholder="Teacher Nmae" autofocus>
+        <input type="text" id="Teacher name" name="user_name" required placeholder="Teacher Name" autofocus>
         ​
     ​
     <label for="Rate">Rate</label>
@@ -234,7 +240,7 @@ p.show{
     <label>Interests</label>
     <input type="checkbox" id="I Have Answerd Honestly" value="I have answered honesltly" name="user_interest"><label class="light" for="Honesty">I have answered Honestly</label><br>
 
-    <button type="submit">Evaluate</button>
+            <input type="button" value="Login" />
     ​
 </form>
 ​
@@ -362,5 +368,91 @@ p.show{
 ​
 </script>
 </body>
+
+<script src="https://threejs.org/build/three.js"></script>
+<script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
+<script>
+    VANTA.CELLS({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 3000.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      color1: 0x7071d,
+      color2: 0x3032f,
+      size: 1.20,
+      speed: 3.30
+    })
+</script>
+
+<style>
+html, body {
+    margin: 0;
+    height: 100%;
+    color: white;
+}
+
+h1{
+    font-size: 5em;
+    color: white;
+}
+
+h5{
+    font-size: 2em;
+    color: black;
+}
+
+.fa{
+    font-size: 3em;
+    letter-spacing: 1em;
+    transition: all .2s;
+    color: white;
+}
+
+.fa:hover{
+    transform: translateY(10px);
+}
+
+.fa-youtube-play:hover{
+    color: #cc0000;
+}
+
+.fa-twitter:hover{
+    color: #1da1f2;
+}
+
+.fa-github:hover{
+    color: #000000;
+}
+
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+    color: white;
+    font-size: 2.5em;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+
+</style>
+
 </html>
 
