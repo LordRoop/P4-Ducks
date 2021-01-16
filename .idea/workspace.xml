@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="science nav bar fixed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Evaluate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Evaluate.html" afterDir="false" />
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="stars">
+      <change beforePath="$PROJECT_DIR$/templates/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/math.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610759351369</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="stars">
+      <created>1610768777143</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610768777143</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,29 +148,9 @@
     <MESSAGE value="math page fixed" />
     <MESSAGE value="math page fixed again" />
     <MESSAGE value="science nav bar fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="science nav bar fixed" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="208" y="25" width="1024" height="817" key="#Project_Structure" timestamp="1610759676426">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state x="208" y="25" width="1024" height="817" key="#Project_Structure/0.25.1440.817@0.25.1440.817" timestamp="1610759676426" />
-    <state width="699" height="208" key="GridCell.Tab.0.bottom" timestamp="1610767702579">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="699" height="208" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1610767702579" />
-    <state width="699" height="208" key="GridCell.Tab.0.center" timestamp="1610767702578">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="699" height="208" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1610767702578" />
-    <state width="699" height="208" key="GridCell.Tab.0.left" timestamp="1610767702578">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="699" height="208" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1610767702578" />
-    <state width="699" height="208" key="GridCell.Tab.0.right" timestamp="1610767702578">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state width="699" height="208" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1610767702578" />
+    <MESSAGE value="image" />
+    <MESSAGE value="stars" />
+    <option name="LAST_COMMIT_MESSAGE" value="stars" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
