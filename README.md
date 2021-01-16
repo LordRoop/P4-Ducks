@@ -13,6 +13,7 @@ akprathipati - Akshit Prathipati
 We are trying to create a rating system for teachers. We will be taking data that is given by students. Later on, if we are ahead of schedule, we will also try to have the students write comments and we will have a more specific criteria so they can grade their teaching, how hard the tests are, and their knowledge on the material and so on. We will use CRUD to monitor the reviews that are given for offensive and/or hateful messages, and we will try to create a system that prevents students from commenting repeatedly to inflate or deflate any teacher’s rating. Our major goal is to have a concrete understanding on data as well as to provide teachers some constructive feedback so that they can improve their teaching. Many teachers are not that adept at teaching online, and can use this as a learning experience to improve their teaching style.   
 
 # Links
+* [Site] (http://76.176.48.196:5671)
 * [Project Plan](https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing)
 * [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1)
 
@@ -44,11 +45,14 @@ We are trying to create a rating system for teachers. We will be taking data tha
 # Deliverable 3(Front End):Getting CSS and perfecting the UI and making it presentable 
 * [Home Page with Navigation bar that leads to all the pages](http://76.176.48.196:5671/)
 * Done by @Navodit and @Ak 
-*they were able to make the pages look better, make it have stars,added new routes,they were able to change the first page that was present, added pictures which corrspned to teachers, made the coard UI.
-*All in all, they basically made the UI look a lot better, 
+* they were able to make the pages look better, make it have stars,added new routes,they were able to change the first page that was present, added pictures which corrspned to teachers, made the coard UI.
+* All in all, they basically made the UI look a lot better, 
 
 # Portforwarding
 * Done by @Roop
-Project is now accessible through the internet. Implementation of security measures is in progress.
+* Project is now accessible through the internet. 
+* Implementation of security measures is in progress.
+*  - Linux container has been put in a seperate subnet within LAN.
+*  - Firewall implementation in progress.
 
 
