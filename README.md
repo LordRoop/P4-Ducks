@@ -25,6 +25,9 @@ We are trying to create a rating system for teachers. We will be taking data tha
 
 * 12/11/20: GitHub repository set up. Updated Readme. Scrumboard Created. [Project plan](https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing) made 
 
+# Run Instructions
+* Click this [Link](http://76.176.48.196:5671/)
+
 # Deliverable 1(Front End): Login in page and username and password
 * [Login Page](http://76.176.48.196:5671/login)
 * Done by @Navodit
@@ -52,7 +55,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Done by @Roop
 * Project is now accessible through the internet. 
 * Implementation of security measures is in progress.
-*  - Linux container has been put in a seperate subnet within LAN.
-*  - Firewall implementation in progress.
+  - Linux container has been put in a seperate subnet within LAN.
+  - Firewall implementation in progress.
 
 
