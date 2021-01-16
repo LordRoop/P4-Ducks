@@ -17,5 +17,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Scrum Board: https://github.com/LordRoop/P4-Ducks/projects/1
 
 # Log 
+
+1/8.20: We were able to add teacher sites on the website. We created a nav bar that allowed us to choose sybject and we updated our routes
 * 12/11/20: GitHub repository set up. Updated Readme. Scrumboard Created. Project plan made: https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing
 Big ticket ideas planned: Comments, Liking comments, Star Reviews, Search bar feature
