@@ -27,6 +27,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 
 # Run Instructions
 * Click this [Link](http://76.176.48.196:5671/)
+* Or Paste this link in you browser: http://76.176.48.196:5671/ 
 
 # Deliverable 1(Front End): Login in page and username and password
 * [Login Page](http://76.176.48.196:5671/login)
