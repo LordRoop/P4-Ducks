@@ -51,6 +51,7 @@ def login():
 @app.route('/registration')
 def registration():
     return flask.render_template("registration.html")
+
 @app.route('/Evaluate')
 def exaluate():
     return flask.render_template("Evaluate.html")
