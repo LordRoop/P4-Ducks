@@ -17,7 +17,11 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1)
 
 # Log 
-
-1/8.20: We were able to add teacher sites on the website. We created a nav bar that allowed us to choose sybject and we updated our routes
+*1/15/20: We were able to add our diliverables that was able to corrospond to our scrum board. 
+Deliverable 1: -Link it here- was done by @Navodit, he was able to make a login page and a registar page. 
+Deliverable 2: -Link to it_ Was done by @Ak, he was able to make a evaluation page
+Deliverable 3: -link to it here0 Was done by @navodit and @Ak, they were able to add to the pages and make the UI much better. They added new routes, they created the bottons and the card UI as well. 
+All the portforwarding and getting it all up and running had been done by @Joop
+*1/8/20: We were able to add teacher sites on the website. We created a nav bar that allowed us to choose sybject and we updated our routes
 * 12/11/20: GitHub repository set up. Updated Readme. Scrumboard Created. Project plan made: https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing
 Big ticket ideas planned: Comments, Liking comments, Star Reviews, Search bar feature
