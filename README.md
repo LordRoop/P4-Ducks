@@ -49,6 +49,6 @@ We are trying to create a rating system for teachers. We will be taking data tha
 
 # Portforwarding
 * Done by @Roop
-
+Project is now accessible through the internet. Implementation of security measures is in progress.
 
 
