@@ -39,3 +39,4 @@ All the portforwarding and getting it all up and running had been done by @Joop
 * 1/8/20: We were able to add teacher sites on the website. We created a nav bar that allowed us to choose sybject and we updated our routes
 * 12/11/20: GitHub repository set up. Updated Readme. Scrumboard Created. Project plan made: https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing
 Big ticket ideas planned: Comments, Liking comments, Star Reviews, Search bar feature
+@ Aiden is working on the back end code.
