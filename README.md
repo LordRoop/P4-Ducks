@@ -17,9 +17,12 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1)
 
 # Log 
-* 1/15/21: We were able to add our diliverables that was able to corrospond to our scrum board. [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1) One main ticket ideas were to have a much more ellegant UI, which is deliverbale 3. Another main ticket idea was to have an evaluation page where people can rate the teachers, dilverable 2. Finally, the last diliverable was to make sure make a login page, where it promotes the user to put username and password and we also created a sign up page as well!
+* 1/15/21: We were able to add our diliverables that was able to corrospond to our scrum board. [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1) One main ticket ideas were to have a much more ellegant UI, which is deliverbale three. Another main ticket idea was to have an evaluation page where people can rate the teachers, dilverable two. Finally, the last diliverable was to make sure make a login page, where it promotes the user to put username and password and we also created a sign up page as well to avoid spam ratings! Big ticket ideas planned: Comments, Liking comments, Star Reviews, Search bar feature
+@ Aiden is working on the back end code. A near futrue goal is to be able to manage data in a database. It can be used to manage accounts, likes, rating and comments. 
 
 * 1/8/21: We were able to create different pages for different departments. We then created a spreadsheet with all the teacher's names and put them in on the website. We used a card format so on each teacher card, it would display an icon related to their subject, their name and stars for rating them. Eventually, we will make them buttons that will lead to teacher's own pages for ratings and comments. We also added a background and added a dictionary. This will help us to have icons that will lead to different links like out github.   
+
+* 12/11/20: GitHub repository set up. Updated Readme. Scrumboard Created. [Project plan](https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing) made 
 
 # Deliverable 1(Front End): Login in page and username and password
 *Link it here
@@ -43,9 +46,9 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Was done by @Navodit and @Ak 
 *they were able to make the pages look better, make it have stars,added new routes,they were able to change the first page that was present, added pictures which corrspned to teachers, made the coard UI.
 *All in all, they basically made the UI look a lot better, 
+
+# Portforwarding
 All the portforwarding and getting it all up and running had been done by @Joop
 
-* 1/8/20: We were able to add teacher sites on the website. We created a nav bar that allowed us to choose sybject and we updated our routes
-* 12/11/20: GitHub repository set up. Updated Readme. Scrumboard Created. [Project plan](https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing) made 
-Big ticket ideas planned: Comments, Liking comments, Star Reviews, Search bar feature
-@ Aiden is working on the back end code.
+
+
