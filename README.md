@@ -17,7 +17,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1)
 
 # Log 
-* 1/15/20: We were able to add our diliverables that was able to corrospond to our scrum board.[Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1)One main ticket ideas were to have a much more ellegant UI, which is deliverbale 3. Another main ticket idea was to have an evaluation page where people can rate the teachers, dilverable 2. Finally, the last diliverable was to make sure make a login page, where it promotes the user to put username and password and we also created a sign up page as well!
+* 1/15/20: We were able to add our diliverables that was able to corrospond to our scrum board. [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1) One main ticket ideas were to have a much more ellegant UI, which is deliverbale 3. Another main ticket idea was to have an evaluation page where people can rate the teachers, dilverable 2. Finally, the last diliverable was to make sure make a login page, where it promotes the user to put username and password and we also created a sign up page as well!
 
 # Deliverable 1(Front End): Login in page and username and password
 *Link it here
