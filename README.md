@@ -25,8 +25,8 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * 12/11/20: GitHub repository set up. Updated Readme. Scrumboard Created. [Project plan](https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing) made 
 
 # Deliverable 1(Front End): Login in page and username and password
-*Link it here
-*was done by @Navodit
+* [Login Page](http://76.176.48.196:5671/login)
+* Done by @Navodit
 * The UI of the username and password was made and a registration page was also made.
 * The code incorporated CSS and the UI is well established. 
 * The sign in button leads to the homepage and the "create a new account" leads to the regisration page.
@@ -34,21 +34,21 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Futrue goal is to be able to store accounts and have real login identifications.
 
 # Deliverable 2(Front End): Evaluation page
-*Link to it_ 
-@Was done by @Ak 
+* [Evaluation Page](http://76.176.48.196:5671/Evaluate) 
+* Done by @Ak 
 * created a UI that allows the person to evealuate the teacher 
 * Had a drop down menu to score them from 1 to 5
 * Icorporated CSS to make it look better
 * Future goal is to incorperate it with the teacher pages
 
 # Deliverable 3(Front End):Getting CSS and perfecting the UI and making it presentable 
-*link to it here
-* Was done by @Navodit and @Ak 
+* [Home Page with Navigation bar that leads to all the pages](http://76.176.48.196:5671/)
+* Done by @Navodit and @Ak 
 *they were able to make the pages look better, make it have stars,added new routes,they were able to change the first page that was present, added pictures which corrspned to teachers, made the coard UI.
 *All in all, they basically made the UI look a lot better, 
 
 # Portforwarding
-All the portforwarding and getting it all up and running had been done by @Joop
+* Done by @Roop
 
 
 
