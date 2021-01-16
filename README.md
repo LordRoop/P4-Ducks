@@ -46,7 +46,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Icorporated CSS to make it look better
 * Future goal is to incorperate it with the teacher pages
 
-# Deliverable 3(Front End):Getting CSS and perfecting the UI and making it presentable 
+# Deliverable 3(Front End): Getting CSS and perfecting the UI and making it presentable 
 * [Home Page with Navigation bar that leads to all the pages](http://76.176.48.196:5671/)
 * Done by @Navodit and @Ak 
 * they were able to make the pages look better, make it have stars,added new routes,they were able to change the first page that was present, added pictures which corrspned to teachers, made the coard UI.
