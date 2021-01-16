@@ -17,7 +17,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1)
 
 # Log 
-* 1/15/20: We were able to add our diliverables that was able to corrospond to our scrum board. 
+* 1/15/20: We were able to add our diliverables that was able to corrospond to our scrum board. Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1)
 * Deliverable 1: -Link it here- was done by @Navodit, he was able to make a login page and a registar page. 
 * Deliverable 2: -Link to it_ Was done by @Ak, he was able to make a evaluation page
 * Deliverable 3: -link to it here0 Was done by @navodit and @Ak, they were able to add to the pages and make the UI much better. They added new routes, they created the bottons and the card UI as well. 
