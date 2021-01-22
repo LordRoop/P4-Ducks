@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="evaluate fixed">
-      <change afterPath="$PROJECT_DIR$/create.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="database">
+      <change afterPath="$PROJECT_DIR$/stats.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610785102207</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="database">
+      <created>1611286916198</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611286916198</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,7 +182,8 @@
     <MESSAGE value="stars" />
     <MESSAGE value="math page resize" />
     <MESSAGE value="evaluate fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="evaluate fixed" />
+    <MESSAGE value="database" />
+    <option name="LAST_COMMIT_MESSAGE" value="database" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
