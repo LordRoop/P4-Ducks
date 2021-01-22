@@ -1,5 +1,6 @@
 import sqlite3
 
+
 conn = sqlite3.connect('user.db')
 
 # Creating a Cursor
@@ -11,6 +12,7 @@ many_users = [
     ('Navodit', 'Yee', 'Navodit@gmail.com'),
     ('Joe', 'Yee', 'joe@gmail.com'),
 ]
+
 
 
 c.execute("SELECT * FROM users")

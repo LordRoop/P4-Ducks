@@ -1,5 +1,7 @@
 import data
 import flask
+from flask import request, redirect
+import sqlite3
 
 app = flask.Flask(__name__)
 
@@ -50,12 +52,31 @@ def login():
 
 @app.route('/registration')
 def registration():
+    print("I am in registraeldskfl")
     return flask.render_template("registration.html")
 
 @app.route('/Evaluate')
 def exaluate():
     return flask.render_template("Evaluate.html")
 
+@app.route('/signup', methods = ['POST'])
+def signup():
+    user =request.form['user']
+    password = request.form['user_pass']
+    mail =request.form['mail']
+    print("Username" + "\t" + user + "\t" + "Password" + "\t" + password + "\t" + "Email" + "\t" + mail)
+    userinfo =[user,password,mail]
+    conn = sqlite3.connect('user.db')
+    # Creating a Cursor
+    c = conn.cursor()
+    c.execute("INSERT INTO users VALUES (?,?,?)", userinfo)
+    # Commit our command
+    conn.commit()
+
+    # close our connection
+    conn.close()
+
+    return redirect('/')
 
 if __name__ == "__main__":
     app.run(debug=True, port=' 5008', host='127.0.0.1')
