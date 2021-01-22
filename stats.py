@@ -1,4 +1,3 @@
-
 import sqlite3 as sl
 
 def fetch_web_data():
