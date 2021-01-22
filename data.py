@@ -62,6 +62,6 @@ def runtime():
     doa = time.strftime("%Y-%m-%d %H:%M", time.localtime())
     doah = int(time.strftime("%H", time.localtime()))
     job = "Runtime Link"
-    embed = "https://Python-Web-Portfolio-Series.jmort1021.repl.co"
+    embed = "https://www.youtube.com/watch?v=P6Mogppusec"
     info = {"greeting": greeting, "doa": doa, "doah": doah, "job": job, "embed": embed}
     return info
