@@ -3,6 +3,7 @@ import flask
 from flask import request, redirect
 import sqlite3
 import json as j
+import requests as r
 
 
 app = flask.Flask(__name__)
@@ -20,9 +21,9 @@ def test():
 @app.route('/rfg')
 def rfg():
     x = r.get("https://uselessfacts.jsph.pl/random.json?language=en")
-    data = j.loads(x.content)  # Fetch rest api data
-    fact = data.get("text")  # Fetch rest api data
-    return flask.render_template("rfg.html", fact=fact)  # Fetch rest api data
+    data = j.loads(x.content)
+    fact = data.get("text")
+    return flask.render_template("rfg.html", fact=fact)
 
 
 @app.route('/math')

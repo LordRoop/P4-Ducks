@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="stars">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create.py" beforeDir="false" afterPath="$PROJECT_DIR$/create.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/rfg.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rfg.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,28 +151,6 @@
     <MESSAGE value="image" />
     <MESSAGE value="stars" />
     <option name="LAST_COMMIT_MESSAGE" value="stars" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="699" height="208" key="GridCell.Tab.0.bottom" timestamp="1611325535328">
-      <screen x="0" y="25" width="1440" height="818" />
-    </state>
-    <state width="699" height="208" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1611325535328" />
-    <state width="699" height="208" key="GridCell.Tab.0.center" timestamp="1611325535328">
-      <screen x="0" y="25" width="1440" height="818" />
-    </state>
-    <state width="699" height="208" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1611325535328" />
-    <state width="699" height="208" key="GridCell.Tab.0.left" timestamp="1611325535327">
-      <screen x="0" y="25" width="1440" height="818" />
-    </state>
-    <state width="699" height="208" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1611325535327" />
-    <state width="699" height="208" key="GridCell.Tab.0.right" timestamp="1611325535328">
-      <screen x="0" y="25" width="1440" height="818" />
-    </state>
-    <state width="699" height="208" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1611325535328" />
-    <state x="521" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611325520482">
-      <screen x="0" y="25" width="1440" height="818" />
-    </state>
-    <state x="521" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.818@0.25.1440.818" timestamp="1611325520482" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
