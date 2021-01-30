@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="added images 4 meme page">
-      <change afterPath="$PROJECT_DIR$/static/memes/meme7 (1).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/memes/meme7.png" beforeDir="false" />
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="adding images">
+      <change beforePath="$PROJECT_DIR$/templates/meme.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/meme.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611971610501</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding images">
+      <created>1611973671315</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611973671315</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +170,8 @@
     <MESSAGE value="image" />
     <MESSAGE value="stars" />
     <MESSAGE value="added images 4 meme page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added images 4 meme page" />
+    <MESSAGE value="adding images" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding images" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
