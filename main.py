@@ -3,7 +3,7 @@ import flask
 from flask import request, redirect
 import sqlite3
 import json as j
-    #import requests as r
+
 
 
 app = flask.Flask(__name__)
@@ -76,10 +76,6 @@ def registration():
 def exaluate():
     return flask.render_template("Evaluate.html")
 
-@app.route('/meme')
-def meme():
-    return flask.render_template("meme.html")
-
 
 @app.route('/signup', methods=['POST'])
 def signup():
@@ -102,5 +98,5 @@ def signup():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port='5008', host='127.0.0.1')
+    app.run(debug=True, port=' 5007', host='127.0.0.1')
     #ak is here hi
