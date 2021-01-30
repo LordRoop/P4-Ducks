@@ -16,6 +16,8 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * [Site] (http://76.176.48.196:5671)
 * [Project Plan](https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing)
 * [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1)
+* [AK and Aidan's Easter egg](
+* [Roop and Navodit's Easter Egg](http://76.176.48.196:5671/meme)
 
 # Log 
 * 1/15/21: We were able to add our diliverables that was able to corrospond to our scrum board. [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1) One main ticket ideas were to have a much more ellegant UI, which is deliverbale three. Another main ticket idea was to have an evaluation page where people can rate the teachers, dilverable two. Finally, the last diliverable was to make sure make a login page, where it promotes the user to put username and password and we also created a sign up page as well to avoid spam ratings! Big ticket ideas planned: Comments, Liking comments, Star Reviews, Search bar feature
