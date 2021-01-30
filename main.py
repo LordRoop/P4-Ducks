@@ -76,6 +76,10 @@ def registration():
 def exaluate():
     return flask.render_template("Evaluate.html")
 
+@app.route('/meme')
+def meme():
+    return flask.render_template("meme.html")
+
 
 @app.route('/signup', methods=['POST'])
 def signup():
