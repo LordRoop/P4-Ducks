@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="meme page connected to button">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="adding images">
       <change beforePath="$PROJECT_DIR$/templates/meme.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/meme.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,14 +59,14 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="mainnnnn" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
       <module name="P4-Ducks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -147,14 +146,7 @@
       <option name="project" value="LOCAL" />
       <updated>1611973671315</updated>
     </task>
-    <task id="LOCAL-00009" summary="meme page connected to button">
-      <created>1611973920645</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1611973920645</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,8 +171,7 @@
     <MESSAGE value="stars" />
     <MESSAGE value="added images 4 meme page" />
     <MESSAGE value="adding images" />
-    <MESSAGE value="meme page connected to button" />
-    <option name="LAST_COMMIT_MESSAGE" value="meme page connected to button" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding images" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
