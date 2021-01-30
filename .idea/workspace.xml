@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="adding images">
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="memes page background">
       <change beforePath="$PROJECT_DIR$/templates/meme.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/meme.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611973671315</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="memes page background">
+      <created>1611974813785</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611974813785</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,7 +178,8 @@
     <MESSAGE value="stars" />
     <MESSAGE value="added images 4 meme page" />
     <MESSAGE value="adding images" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding images" />
+    <MESSAGE value="memes page background" />
+    <option name="LAST_COMMIT_MESSAGE" value="memes page background" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

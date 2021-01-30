@@ -10,4 +10,22 @@
 <img src="static/memes/meme8.jpg" alt="meme8" style="width:300px">
 <img src="static/memes/meme9.jpg" alt="meme9" style="width:300px">
 
+<script src="https://threejs.org/build/three.js"></script>
+<script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
+<script>
+    VANTA.CELLS({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 2000.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      color1: 0x7071d,
+      color2: 0x3032f,
+      size: 1.20,
+      speed: 3.30
+    })
+</script>
+
 </html>
