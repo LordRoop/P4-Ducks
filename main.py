@@ -3,7 +3,7 @@ import flask
 from flask import request, redirect
 import sqlite3
 import json as j
-import requests as r
+    #import requests as r
 
 
 app = flask.Flask(__name__)
