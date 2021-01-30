@@ -151,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611974813785</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding images to meme page">
+      <created>1611982096074</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611982096074</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,7 +184,8 @@
     <MESSAGE value="added images 4 meme page" />
     <MESSAGE value="adding images" />
     <MESSAGE value="memes page background" />
-    <option name="LAST_COMMIT_MESSAGE" value="memes page background" />
+    <MESSAGE value="adding images to meme page" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding images to meme page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
