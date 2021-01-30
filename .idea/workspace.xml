@@ -19,21 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="Added rating data">
-      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="stars">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +49,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -136,21 +129,7 @@
       <option name="project" value="LOCAL" />
       <updated>1610768777143</updated>
     </task>
-    <task id="LOCAL-00007" summary="stars">
-      <created>1611346177932</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1611346177932</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added rating data">
-      <created>1611969807611</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1611969807611</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,52 +152,13 @@
     <MESSAGE value="science nav bar fixed" />
     <MESSAGE value="image" />
     <MESSAGE value="stars" />
-    <MESSAGE value="Added rating data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added rating data" />
+    <option name="LAST_COMMIT_MESSAGE" value="stars" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="208" y="25" width="1024" height="818" key="#Project_Structure" timestamp="1611969885182">
-      <screen x="0" y="25" width="1440" height="819" />
+    <state x="208" y="25" width="1024" height="818" key="#Project_Structure" timestamp="1611346009597">
+      <screen x="0" y="25" width="1440" height="818" />
     </state>
     <state x="208" y="25" width="1024" height="818" key="#Project_Structure/0.25.1440.818@0.25.1440.818" timestamp="1611346009597" />
-    <state x="208" y="25" key="#Project_Structure/0.25.1440.819@0.25.1440.819" timestamp="1611969885182" />
-    <state width="699" height="208" key="GridCell.Tab.0.bottom" timestamp="1611969252445">
-      <screen x="0" y="25" width="1440" height="819" />
-    </state>
-    <state width="699" height="208" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1611346796817" />
-    <state width="699" height="208" key="GridCell.Tab.0.bottom/0.25.1440.819@0.25.1440.819" timestamp="1611969252445" />
-    <state width="699" height="208" key="GridCell.Tab.0.center" timestamp="1611969252444">
-      <screen x="0" y="25" width="1440" height="819" />
-    </state>
-    <state width="699" height="208" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1611346796816" />
-    <state width="699" height="208" key="GridCell.Tab.0.center/0.25.1440.819@0.25.1440.819" timestamp="1611969252444" />
-    <state width="699" height="208" key="GridCell.Tab.0.left" timestamp="1611969252444">
-      <screen x="0" y="25" width="1440" height="819" />
-    </state>
-    <state width="699" height="208" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1611346796816" />
-    <state width="699" height="208" key="GridCell.Tab.0.left/0.25.1440.819@0.25.1440.819" timestamp="1611969252444" />
-    <state width="699" height="208" key="GridCell.Tab.0.right" timestamp="1611969252445">
-      <screen x="0" y="25" width="1440" height="819" />
-    </state>
-    <state width="699" height="208" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1611346796816" />
-    <state width="699" height="208" key="GridCell.Tab.0.right/0.25.1440.819@0.25.1440.819" timestamp="1611969252445" />
-    <state x="144" y="93" key="MergeDialog" timestamp="1611969838084">
-      <screen x="0" y="25" width="1440" height="819" />
-    </state>
-    <state x="144" y="93" key="MergeDialog/0.25.1440.819@0.25.1440.819" timestamp="1611969838084" />
-    <state x="358" y="200" key="MultipleFileMergeDialog" timestamp="1611969838130">
-      <screen x="0" y="25" width="1440" height="819" />
-    </state>
-    <state x="358" y="200" key="MultipleFileMergeDialog/0.25.1440.819@0.25.1440.819" timestamp="1611969838130" />
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1611969811146">
-      <screen x="0" y="25" width="1440" height="819" />
-    </state>
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.25.1440.818@0.25.1440.818" timestamp="1611346183210" />
-    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.25.1440.819@0.25.1440.819" timestamp="1611969811146" />
-    <state x="521" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611969848211">
-      <screen x="0" y="25" width="1440" height="819" />
-    </state>
-    <state x="521" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.819@0.25.1440.819" timestamp="1611969848211" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
