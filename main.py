@@ -21,8 +21,8 @@ def test():
 
 @app.route('/rfg')
 def rfg():
-    x = r.get("https://uselessfacts.jsph.pl/random.json?language=en")
-    data = j.loads(x.content)
+    xavier = r.get("https://uselessfacts.jsph.pl/random.json?language=en")
+    data = j.loads(xavier.content)
     fact = data.get("text")
     return flask.render_template("rfg.html", fact=fact)
 
