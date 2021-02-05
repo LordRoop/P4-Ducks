@@ -1,66 +1,55 @@
 <html>
+
+
+
 <head>
     <title>MEMES</title>
 
     <style>
         .center {
-  text-align: center;
-}
+            text-align: center;
+        }
     </style>
+
+
 </head>
 
 <body>
-<div class="container">
 
-    <div class="element">
-        <div class="login">
-            <script src="script.js"></script>
-            <center>
-    <tr>
-        <td>
-            <img src="static/memes/meme1.jpg" alt="meme1" style="width:300px">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="static/memes/meme2.png" alt="meme2" style="width:300px">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="static/memes/meme3.png" alt="meme3" style="width:300px">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="static/memes/meme4.png" alt="meme4" style="width:300px">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="static/memes/meme5.png" alt="meme5" style="width:300px">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="static/memes/meme6.png" alt="meme6" style="width:300px">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="static/memes/meme7 (1).png" alt="meme7" style="width:300px">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="static/memes/meme8.jpg" alt="meme8" style="width:300px">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="static/memes/meme9.jpg" alt="meme9" style="width:300px">
-        </td>
-    </tr>
+<script>
+    var timer = setInterval(meme, 3000)
+    var i =1
+    var filename
+    function meme() {
+        if (i > 9){
+            i=1;
+        }
+        filename= "static/memes/meme"+i+".jpg"
+        document.getElementById("navo").src=filename;
+        console.log(filename);
+
+
+        i++
+    }
+</script>
+
+<img id="navo" style="width:300px">
+<!--
+<img src="static/memes/meme2.png" alt="meme2" style="width:300px">
+
+<img src="static/memes/meme3.png" alt="meme3" style="width:300px">
+
+<img src="static/memes/meme4.png" alt="meme4" style="width:300px">
+
+<img src="static/memes/meme5.png" alt="meme5" style="width:300px">
+
+<img src="static/memes/meme6.png" alt="meme6" style="width:300px">
+
+<img src="static/memes/meme7 (1).png" alt="meme7" style="width:300px">
+
+<img src="static/memes/meme8.jpg" alt="meme8" style="width:300px">
+
+<img src="static/memes/meme9.jpg" alt="meme9" style="width:300px"> -->
 
 </div>
 
@@ -71,20 +60,21 @@
 <script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
 <script>
     VANTA.CELLS({
-      el: "body",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 2000.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      color1: 0x7071d,
-      color2: 0x3032f,
-      size: 1.20,
-      speed: 3.30
+        el: "body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 2000.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        color1: 0x7071d,
+        color2: 0x3032f,
+        size: 1.20,
+        speed: 3.30
     })
 </script>
 
+#Navodit was here
 </html>
 
 
