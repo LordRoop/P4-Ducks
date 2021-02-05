@@ -20,6 +20,8 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * [Roop and Navodit's Easter Egg](http://76.176.48.196:5671/meme)
 
 # Log 
+* 2/4/21: Aidan changed the code to the [Random Fact Generator easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-53864903) so its compatible with Roop's Nas, and also added the [Who am I easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-54301133).
+
 * 1/15/21: We were able to add our diliverables that was able to corrospond to our scrum board. [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1) One main ticket ideas were to have a much more ellegant UI, which is deliverbale three. Another main ticket idea was to have an evaluation page where people can rate the teachers, dilverable two. Finally, the last diliverable was to make sure make a login page, where it promotes the user to put username and password and we also created a sign up page as well to avoid spam ratings! Big ticket ideas planned: Comments, Liking comments, Star Reviews, Search bar feature
 @ Aiden is working on the back end code. A near futrue goal is to be able to manage data in a database. It can be used to manage accounts, likes, rating and comments. 
 
