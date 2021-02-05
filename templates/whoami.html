@@ -3,6 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Who am I?</title>
+
+    <style>
+        h1 {
+            color: white;
+        }
+        h4 {
+            color: white;
+        }
+        h5 {
+            color: #ffffff;
+        }
+    </style>
+
 </head>
 <body>
 <h1>Who Am I?</h1>
@@ -15,6 +28,25 @@
 <h5>I code in Python, HTML, CSS and have some knowledge in C. I can make webpages with images buttons and all input fields. I can also use CSS to make pages more appealing. I am also getting better at creating and using functions</h5>
 
 </body>
+
+<script src="https://threejs.org/build/three.js"></script>
+<script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
+<script>
+    VANTA.CELLS({
+        el: "body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 750.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        color1: 0x7071d,
+        color2: 0x3032f,
+        size: 1.20,
+        speed: 3.30
+    })
+</script>
+
 </html>
 </html>
 <script src="https://threejs.org/build/three.js"></script>
