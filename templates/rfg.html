@@ -1,26 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Random Fact Generator</title>
-</head>
+<html>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <!--
     <a class="navbar-brand" href="#">Ducks</a>
     -->
 
 
-
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/math"> Math </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/english"> English </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/science"> Science </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/language"> Foreign Language </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/history"> History </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" style="background-color:black; color:cyan;" href="/ens"> ENS </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/elective"> Electives </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/rfg"> Random Fact Generator </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/login"> Login </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/registration"> Register </a>
+            <li class="nav-link">
+                <a class="nav-link" href="/Evaluate"> Evaluate </a>
+            </li>
 
         </ul>
     </div>
 </nav>
+
+
+<head>
+
+    <title> Random Fact Generator </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
 <body>
+
     <h1>Random Fact Generator</h1>
     <p class="fact">{{fact}}</p>
     <form method="POST" ID="myForm" action={{url_for('.rfg')}} >
         <input type="submit" value="New Fact">
     </form>
+
 </body>
 <!--<body>
     <section id="cta" class="wrapper" style = "background-color: white; font-color:black">
