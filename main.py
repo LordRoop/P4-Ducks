@@ -80,6 +80,9 @@ def exaluate():
 def meme():
     return flask.render_template("meme.html")
 
+@app.route('/whoami')
+def whoami():
+    return flask.render_template("whoami.html")
 
 @app.route('/signup', methods=['POST'])
 def signup():
