@@ -2,8 +2,7 @@ import data
 import flask
 from flask import request, redirect
 import sqlite3
-import json as j
-import requests as r
+import requests
 
 
 
@@ -19,11 +18,11 @@ def test():
     return flask.render_template("test.html")
 
 
-@app.route('/rfg')
+@app.route('/rfg', methods=['GET', 'POST'])
 def rfg():
-    xavier = r.get("https://uselessfacts.jsph.pl/random.json?language=en")
-    apidata = j.loads(xavier.content)
-    fact = apidata.get("text")
+    url = 'https://uselessfacts.jsph.pl/random.json?language=en'
+    response = requests.get(url)
+    fact = response.json()['text']
     return flask.render_template("rfg.html", fact=fact)
 
 

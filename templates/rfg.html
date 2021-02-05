@@ -26,6 +26,13 @@
     </div>
 </nav>
 <body>
+    <h1>Random Fact Generator</h1>
+    <p class="fact">{{fact}}</p>
+    <form method="POST" ID="myForm" action={{url_for('.rfg')}} >
+        <input type="submit" value="New Fact">
+    </form>
+</body>
+<!--<body>
     <section id="cta" class="wrapper" style = "background-color: white; font-color:black">
         <div class="inner">
             <h2 style="color:black">Random Fact Generator</h2>
@@ -36,7 +43,7 @@
         <p> </p>
     </section>
 </body>
-
+-->
 
 </html>
 <script src="https://threejs.org/build/three.js"></script>
