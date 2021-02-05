@@ -22,7 +22,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 # Log 
 * 2/4/21: Aidan changed the code to the [Random Fact Generator easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-53864903) so its compatible with Roop's Nas, and also added the [Who am I easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-54301133). [Aiden's RFG] (http://76.176.48.196:5671/rfg)
 * Ak: Job was to Add CSS to the API, meme page, and the Who am I page. He also had to get a head start on passing data, all he has to do is add commands in the terminal. [Big ticket for AK](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306702)[Ak's CSS] (http://76.176.48.196:5671/rfg)
-* Navodit: Navodit worked on the login and registration backend to be able not have multiple accounts with the same user and email.[Big Ticket for Navodit](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306767) |[ Code](https://github.com/LordRoop/P4-Ducks/blob/main/register.py). He also added the meme page and was able to make it change every 5 seconds [Link to code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/meme.html) 
+* Navodit: Navodit worked on the login and registration backend to be able not have multiple accounts with the same user and email.[Big Ticket for Navodit](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306767) |[ Code](https://github.com/LordRoop/P4-Ducks/blob/main/register.py). He also added the meme page and was able to make it change every 5 seconds [Link to code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/meme.html) [Link to page](http://76.176.48.196:5671/meme) 
 
 
 # Big Tickets 
