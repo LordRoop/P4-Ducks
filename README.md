@@ -62,5 +62,9 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Implementation of security measures is in progress.
   - Linux container has been put in a seperate subnet within LAN.
   - Firewall implementation in progress.
+# Big Tickets 
+Ak: Job was to Add CSS to the API, meme page, and the Who am I page. He also had to get a head start on passing data, all he has to do is add commands in the terminal. 
+Navodit: His job was to enhance the login page and he was able to figure out how to pass data from the login page and it can be seen as a table. He also added the meme page. 
+Aiden: devlop the easter egg and made the API compatiable with Roop's portforwarding. 
 
 
