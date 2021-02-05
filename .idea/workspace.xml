@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="database">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/meme.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/meme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/whoami.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/whoami.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user.db" beforeDir="false" afterPath="$PROJECT_DIR$/user.db" afterDir="false" />
-    </list>
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="meme centered" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +104,7 @@
       <workItem from="1612470018012" duration="56000" />
       <workItem from="1612470086939" duration="380000" />
       <workItem from="1612511157489" duration="727000" />
-      <workItem from="1612514219513" duration="832000" />
+      <workItem from="1612514219513" duration="1020000" />
     </task>
     <task id="LOCAL-00001" summary="i have to commit this to pull">
       <created>1610084867306</created>
@@ -209,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612510343905</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="meme centered">
+      <created>1612515159126</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612515159126</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +245,8 @@
     <MESSAGE value="changed data variable name to apidata" />
     <MESSAGE value="changed the code for the random fact generator" />
     <MESSAGE value="database" />
-    <option name="LAST_COMMIT_MESSAGE" value="database" />
+    <MESSAGE value="meme centered" />
+    <option name="LAST_COMMIT_MESSAGE" value="meme centered" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
