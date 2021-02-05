@@ -21,6 +21,6 @@ def newuser(request):
         # close our connection
         conn.close()
     except:
-    print("duplicate userid or email")
-    return redirect('/registration.html', error='User of Email already in Use')
-    return redirect('/')
+        print("duplicate userid or email")
+        return redirect('/registration.html', error='User of Email already in Use')
+        return redirect('/')
