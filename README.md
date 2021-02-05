@@ -70,6 +70,6 @@ We are trying to create a rating system for teachers. We will be taking data tha
 # Big Tickets 
 * Ak: Job was to Add CSS to the API, meme page, and the Who am I page. He also had to get a head start on passing data, all he has to do is add commands in the terminal. [Big ticket for AK](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306702)
 
-* Navodit: His job was to enhance the login page and he was able to figure out how to pass data from the login page and it can be seen as a table. He also added the meme page. [Big Ticket for Navodit](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306767)
+* Navodit worked on the login and registration backend to be able not have multiple accounts with the same user and email [Code](https://github.com/LordRoop/P4-Ducks/blob/main/register.py). He also worked on the meme page easter egg by making the images change every 30 minutes. The pictures are also sized and centered.  [Meme Page]() | [Link to code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/meme.html) | [Big Ticket for Navodit](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306767)
 
 * Aiden: devlop the easter egg and made the API compatiable with Roop's portforwarding.[Big Ticket for Aiden](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306731)
