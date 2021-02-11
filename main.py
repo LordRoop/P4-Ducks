@@ -1,8 +1,10 @@
 import data
 import flask
 from flask import request, redirect
-import sqlite3
+from register import newuser
+from login import validate
 import requests
+from create import updatepwd, delete
 
 
 
@@ -13,9 +15,9 @@ app = flask.Flask(__name__)
 def home():
     return flask.render_template("home.html", projects=data.setup(), data=data.runtime())
 
-@app.route('/test')
-def test():
-    return flask.render_template("test.html")
+@app.route('/profile')
+def profile():
+    return flask.render_template("profile.html")
 
 
 @app.route('/rfg', methods=['GET', 'POST'])
@@ -85,24 +87,19 @@ def whoami():
     return flask.render_template("whoami.html")
 
 @app.route('/signup', methods=['POST'])
-def signup():
-    user = request.form['user']
-    password = request.form['user_pass']
-    mail = request.form['mail']
-    print("Username" + "\t" + user + "\t" + "Password" + "\t" + password + "\t" + "Email" + "\t" + mail)
-    userinfo = [user, password, mail]
-    conn = sqlite3.connect('user.db')
-    # Creating a Cursor
-    c = conn.cursor()
-    c.execute("INSERT INTO users VALUES (?,?,?)", userinfo)
-    # Commit our command
-    conn.commit()
+def signup(): return newuser(request)
 
-    # close our connection
-    conn.close()
 
-    return redirect('/')
+@app.route('/checkuser', methods=['POST'])
+def checkuser(): return validate(request)
 
+@app.route('/changepwd', methods=['POST'])
+def changepwd():
+    return flask.render_template("profile.html", error=updatepwd(request))
+
+@app.route('/deleteAccount', methods=['POST'])
+def deleteAccount():
+    return flask.render_template("profile.html", error=delete(request))
 
 if __name__ == "__main__":
     app.run(debug=True, port=' 5006', host='127.0.0.1')

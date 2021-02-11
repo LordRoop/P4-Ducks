@@ -17,7 +17,7 @@
           top: 0; bottom: 0; left: 0; right: 0;
           margin: auto;
           background: orange;
-          width: 50vw; height: 50vh;
+          width: 50vw; height: 60vh;
           vertical-align: middle;
         }
 
@@ -30,7 +30,7 @@
         }
         input[type="text"],
         input[type="password"],
-        input[type="submit"],
+
         textarea,
         select {
           background: rgba(255, 255, 255, 0.1);
@@ -46,7 +46,8 @@
           box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
           margin-bottom: 30px;
         }
-        input[type="button"] {
+         input[type="submit"],
+         input[type="button"] {
           padding: 19px 39px 18px 39px;
           color: #FFF;
           background-color: #4bc970;
@@ -68,6 +69,13 @@
           background: azure;
         }
 
+        h1{
+            font-size: 18px;
+
+            font-style: normal;
+            color: #cc0000;
+        }
+
     </style>
 </head>
 <body>
@@ -79,8 +87,8 @@
             <script src="script.js"></script>
             <center>
                 <h3>Login Here</h3>
-
-                <form action="/login" method="post">
+                <h1> {{ error }} </h1>
+                <form action="/checkuser" method="post">
                     <table>
                         <tr>
                             <td>Username:</td>
