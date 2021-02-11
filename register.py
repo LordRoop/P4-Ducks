@@ -1,6 +1,6 @@
 import sqlite3
 
-from flask import redirect
+from flask import redirect, render_template
 
 
 def newuser(request):
@@ -22,6 +22,6 @@ def newuser(request):
         conn.close()
     except:
         print("duplicate userid or email")
-        return redirect('/registration', error='User of Email already in Use')
+        return render_template("registration.html", error='UserId or email already in use')
     else:
         return redirect('/')
