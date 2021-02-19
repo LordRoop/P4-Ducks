@@ -36,7 +36,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 
 ## AK
 *Added CSS to Easter egg (http://76.176.48.196:5671/)
-* Created Evaluation Page [Meme Page](http://76.176.48.196:5671/Evaluate)
+* Created Evaluation Page [Evaluation](http://76.176.48.196:5671/Evaluate)
 * Was able to add get pass data 
 * Created comment section and frop down rating system 
 * 
