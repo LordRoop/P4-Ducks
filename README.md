@@ -24,7 +24,12 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * [Login Page](http://127.0.0.1:5006/login)
 * [Signup Page](http://127.0.0.1:5006/registration)
 * Login and Registration page fully functional. CRUD used in these pages. 
-* Used POST to transfer user data through html and python file to database. [Link to code]()
+* Used POST and app routes (functions imported on top and app routes at the end) to transfer user data through html and python file to database. [Link to register code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/templates/registration.html#L95) | [Link to login page code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/templates/login.html#L91) | [App route code](https://github.com/LordRoop/P4-Ducks/blob/main/main.py) 
+* Functions made to authorize accounts [Link to code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/create.py#L49)
+* Function made to make sure that every user has an unique user name [Link to code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/register.py)
+
+## Roop and Navodit
+*
 
 # Log 
 * 2/4/21: Aidan changed the code to the [Random Fact Generator easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-53864903) so its compatible with Roop's Nas, and also added the [Who am I easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-54301133). [Aiden's RFG] (http://76.176.48.196:5671/rfg)
