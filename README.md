@@ -32,6 +32,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * [Meme Page](http://76.176.48.196:5671/meme)
 * Meme page fully completed
 * for loop runs on timer cycling through images
+* Meets collegeboard requirements
 
 # Log 
 * 2/4/21: Aidan changed the code to the [Random Fact Generator easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-53864903) so its compatible with Roop's Nas, and also added the [Who am I easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-54301133). [Aiden's RFG] (http://76.176.48.196:5671/rfg)
