@@ -40,7 +40,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Was able to add get pass data [Get and Post](https://github.com/LordRoop/P4-Ducks/commit/2a90269223a71e830d854eec6f005d4c025d299b)
 * Created comment section and frop down rating system[Evaluation](http://76.176.48.196:5671/math)
 * Was able to meet College Board requirements: https://drive.google.com/file/d/1o27CE_wJgGf1s4DooOijO3A4PqTF_bkE/view?usp=sharing talks about where we are 
-*Able to change some CSS on teacher pages
+*Able to change some CSS on teacher pages as instructed by the bulls 
 # Log 
 * 2/4/21: Aidan changed the code to the [Random Fact Generator easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-53864903) so its compatible with Roop's Nas, and also added the [Who am I easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-54301133). [Aiden's RFG] (http://76.176.48.196:5671/rfg)
 * Ak: Job was to Add CSS to the API, meme page, and the Who am I page. He also had to get a head start on passing data, all he has to do is add commands in the terminal. [Big ticket for AK](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306702)[Ak's CSS] (http://76.176.48.196:5671/rfg)
