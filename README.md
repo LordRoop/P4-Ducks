@@ -21,15 +21,15 @@ We are trying to create a rating system for teachers. We will be taking data tha
 
 # Mini Code and Ticket Review
 ## Navodit
-* [Login Page](http://127.0.0.1:5006/login)
-* [Signup Page](http://127.0.0.1:5006/registration)
+* [Login Page](http://76.176.48.196:5671/login)
+* [Signup Page](http://76.176.48.196:5671/registration)
 * Login and Registration page fully functional. CRUD used in these pages. 
 * Used POST and app routes (functions imported on top and app routes at the end) to transfer user data through html and python file to database. [Link to register code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/templates/registration.html#L95) | [Link to login page code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/templates/login.html#L91) | [App route code](https://github.com/LordRoop/P4-Ducks/blob/main/main.py) 
 * Functions made to authorize accounts [Link to code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/create.py#L49)
 * Function made to make sure that every user has an unique user name [Link to code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/register.py)
 
 ## Roop
-* [Meme Page](http://127.0.0.1:5006/meme)
+* [Meme Page](http://76.176.48.196:5671/meme)
 * Meme page fully completed
 * for loop runs on timer cycling through images
 
