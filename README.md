@@ -36,6 +36,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 ## Bulls Recommendations
 *Update CSS(done by AK)
 *organize code (Roop and Navodit)
+*Change UI for the teacher page
 
 ## AK
 *Added CSS to Easter egg (http://76.176.48.196:5671/)
