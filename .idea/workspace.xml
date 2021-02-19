@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="changed the code for the random fact generator">
+      <change afterPath="$PROJECT_DIR$/create2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rating.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/whoami.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/whoami.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Evaluate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Evaluate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rfg.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rfg.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -73,7 +80,7 @@
       <recent name="C:\Users\jagro\IdeaProjects\P4-Ducks\static\memes" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -107,6 +114,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="P4-Ducks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/templates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/templates/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -245,14 +278,34 @@
     <MESSAGE value="changed the code for the random fact generator" />
     <option name="LAST_COMMIT_MESSAGE" value="changed the code for the random fact generator" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="241" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612510428479">
+      <screen x="0" y="25" width="1440" height="820" />
+    </state>
+    <state x="410" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.820@0.25.1440.820" timestamp="1612510428479" />
+    <state width="699" height="208" key="GridCell.Tab.0.bottom" timestamp="1613015685817">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="699" height="208" key="GridCell.Tab.0.bottom/0.25.1440.819@0.25.1440.819" timestamp="1613015685817" />
+    <state width="699" height="208" key="GridCell.Tab.0.bottom/0.25.1440.820@0.25.1440.820" timestamp="1612511644853" />
+    <state width="699" height="208" key="GridCell.Tab.0.center" timestamp="1613015685816">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="699" height="208" key="GridCell.Tab.0.center/0.25.1440.819@0.25.1440.819" timestamp="1613015685816" />
+    <state width="699" height="208" key="GridCell.Tab.0.center/0.25.1440.820@0.25.1440.820" timestamp="1612511644852" />
+    <state width="699" height="208" key="GridCell.Tab.0.left" timestamp="1613015685816">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="699" height="208" key="GridCell.Tab.0.left/0.25.1440.819@0.25.1440.819" timestamp="1613015685816" />
+    <state width="699" height="208" key="GridCell.Tab.0.left/0.25.1440.820@0.25.1440.820" timestamp="1612511644851" />
+    <state width="699" height="208" key="GridCell.Tab.0.right" timestamp="1613015685817">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="699" height="208" key="GridCell.Tab.0.right/0.25.1440.819@0.25.1440.819" timestamp="1613015685817" />
+    <state width="699" height="208" key="GridCell.Tab.0.right/0.25.1440.820@0.25.1440.820" timestamp="1612511644853" />
+  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/P4_Ducks$main.coverage" NAME="main Coverage Results" MODIFIED="1612509198171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/P4_Ducksss123$main.coverage" NAME="main Coverage Results" MODIFIED="1612508126589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/P4_Ducksmaster$main.coverage" NAME="main Coverage Results" MODIFIED="1612481122865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/P4_Ducksmaster$mainnnnn.coverage" NAME="mainnnnn Coverage Results" MODIFIED="1611969499078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
