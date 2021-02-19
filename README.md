@@ -37,7 +37,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 ## AK
 *Added CSS to Easter egg (http://76.176.48.196:5671/)
 * Created Evaluation Page [Evaluation](http://76.176.48.196:5671/Evaluate)
-* Was able to add get pass data 
+* Was able to add get pass data [Evaluation](https://github.com/LordRoop/P4-Ducks/commit/2a90269223a71e830d854eec6f005d4c025d299b)
 * Created comment section and frop down rating system[Evaluation](http://76.176.48.196:5671/math)
 * Was able to meet College Board requirements 
 
