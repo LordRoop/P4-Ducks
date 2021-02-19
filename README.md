@@ -19,6 +19,13 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * [AK and Aidan's Easter egg](http://76.176.48.196:5671/)
 * [Roop and Navodit's Easter Egg](http://76.176.48.196:5671/meme)
 
+# Mini Code and Ticket Review
+## Navodit
+* [Login Page](http://127.0.0.1:5006/login)
+* [Signup Page](http://127.0.0.1:5006/registration)
+* Login and Registration page fully functional. CRUD used in these pages. 
+* Used POST to transfer user data through html and python file to database. [Link to code]()
+
 # Log 
 * 2/4/21: Aidan changed the code to the [Random Fact Generator easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-53864903) so its compatible with Roop's Nas, and also added the [Who am I easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-54301133). [Aiden's RFG] (http://76.176.48.196:5671/rfg)
 * Ak: Job was to Add CSS to the API, meme page, and the Who am I page. He also had to get a head start on passing data, all he has to do is add commands in the terminal. [Big ticket for AK](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306702)[Ak's CSS] (http://76.176.48.196:5671/rfg)
