@@ -32,7 +32,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * [Meme Page](http://76.176.48.196:5671/meme)
 * Meme page fully completed
 * for loop runs on timer cycling through images
-* Meets collegeboard requirements
+* Meets collegeboard requirements according to [College Board requirements](https://drive.google.com/file/d/1o27CE_wJgGf1s4DooOijO3A4PqTF_bkE/view?usp=sharing)
 ## Bulls Recommendations
 *Update CSS(done by AK)
 *organize code (Roop and Navodit)
