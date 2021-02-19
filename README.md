@@ -33,6 +33,9 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Meme page fully completed
 * for loop runs on timer cycling through images
 * Meets collegeboard requirements
+## Bulls Recommendations
+*Update CSS(done by AK)
+*organize code (Roop and Navodit)
 
 ## AK
 *Added CSS to Easter egg (http://76.176.48.196:5671/)
