@@ -2,30 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Sign Up</title>
     <style>
-         .container{
-          position:relative;
-          width:90vw;
-          height: 90vh;
-          border: 2px solid white;
-          margin: auto;
+        .container{
+            position:relative;
+            width:90vw;
+            height: 90vh;
+            border: 2px solid white;
+            margin: auto;
         }
 
         .element{
-          position:absolute;
-          top: 0; bottom: 0; left: 0; right: 0;
-          margin: auto;
-          background: orange;
-          width: 50vw; height: 60vh;
-          vertical-align: middle;
+            position:absolute;
+            top: 0; bottom: 0; left: 0; right: 0;
+            margin: auto;
+            background: orange;
+            width: 50vw; height: 70vh;
+            vertical-align: middle;
         }
 
         .sign{
-          text-align: center;
-          vertical-align: middle;
-          width: 50vw; height: 50vh;
-          color: black; font-size: 2rem;
+            text-align: center;
+            vertical-align: middle;
+            width: 50vw; height: 50vh;
+            color: black; font-size: 2rem;
 
         }
         input[type="text"],
@@ -34,42 +34,49 @@
         input[type="email"],
         textarea,
         select {
-          background: rgba(255, 255, 255, 0.1);
-          border: none;
-          font-size: 25px;
-          height: auto;
-          margin: 0;
-          outline: 0;
-          padding: 13px;
-          width: 100%;
-          background-color: #e8eeef;
-          color: #8a97a0;
-          box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
-          margin-bottom: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            font-size: 25px;
+            height: auto;
+            margin: 0;
+            outline: 0;
+            padding: 13px;
+            width: 100%;
+            background-color: #e8eeef;
+            color: #8a97a0;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+            margin-bottom: 30px;
         }
 
 
-
+        input[type="button"],
         input[type="submit"] {
-          padding: 19px 39px 18px 39px;
-          color: #FFF;
-          background-color: #4bc970;
-          font-size: 18px;
-          text-align: center;
-          font-style: normal;
-          border-radius: 5px;
-          width: 100%;
-          border: 1px solid #3ac162;
-          border-width: 1px 1px 3px;
-          box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-          margin-bottom: 10px;
+            padding: 19px 39px 18px 39px;
+            color: #FFF;
+            background-color: #4bc970;
+            font-size: 18px;
+            text-align: center;
+            font-style: normal;
+            border-radius: 5px;
+            width: 100%;
+            border: 1px solid #3ac162;
+            border-width: 1px 1px 3px;
+            box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+            margin-bottom: 10px;
         }
 
 
         body{
-          height: 100vh;
-          display:flex;
-          background: azure;
+            height: 100vh;
+            display:flex;
+            background: azure;
+        }
+
+        h1{
+            font-size: 18px;
+
+            font-style: normal;
+            color: #cc0000;
         }
 
     </style>
@@ -114,7 +121,7 @@
                             </td>
 
                             <td>
-                                <input type="submit" onclick="window.location.href='/login';" value="I already have an account" />
+                                <input type="button" onclick="window.location.href='/login';" value="I already have an account" />
                             </td>
                         </tr>
                         <table>
@@ -129,17 +136,17 @@
 <script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
 <script>
     VANTA.CELLS({
-      el: "body",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 750.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      color1: 0x7071d,
-      color2: 0x3032f,
-      size: 1.20,
-      speed: 3.30
+        el: "body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 750.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        color1: 0x7071d,
+        color2: 0x3032f,
+        size: 1.20,
+        speed: 3.30
     })
 </script>
 

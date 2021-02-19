@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+
+    <style>
+
+        h1{
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+        }
+
+        h5{
+            font-size: 18px;
+
+        }
+
+        h3{
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+
+        }
+
+        label {
+            color: white;
+            padding: 8px;
+            font-size: 18px;
+        }
+
+        input[type="submit"],
+        input[type="button"] {
+            padding: 19px 39px 18px 39px;
+            color: #FFF;
+            font-size: 18px;
+            text-align: center;
+            font-style: normal;
+            border-radius: 5px;
+            box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<center>
+
+    <table>
+        <tr>
+            <td> <h3> My Account </h3> </td>
+        </tr>
+        <tr>
+            <td> <h5> </h5> </td>
+        </tr>
+        <table>
+<h2> {{error}}</h2>
+        <h1>Change Password</h1>
+<form action="/changepwd" method="post">
+<table>
+    <tr>
+    <td> <label for="user">Username:</label> </td>
+    <td> <input type="text" id="user" name="user"><br><br> </td>
+    </tr>
+    <tr>
+    <td> <label for="user_pass">Current Password:</label> </td>
+    <td> <input type="text" id="user_pass" name="user_pass"><br><br> </td>
+    </tr>
+    <tr>
+    <td><label for="user_pass1">New Password:</label></td>
+    <td><input type="text" id="user_pass1" name="user_pass1"><br><br></td>
+    </tr>
+    <tr>
+    <td><label for="user_pass2">Confirm New Password:</label></td>
+        <td><input type="text" id="user_pass2" name="user_pass2"><br><br></td>
+    </tr>
+        <table>
+    <input style="background-color: #3ac162" type="submit" value="Submit">
+</form>
+    <center>
+
+
+        <table>
+            <tr>
+                <td> <h5> </h5> </td>
+            </tr>
+            <table>
+        <h1>Delete Account</h1>
+<form action="/deleteAccount" method="post">
+    <table>
+        <tr>
+            <td> <label for="user">Username:</label> </td>
+            <td> <input type="text" id="user" name="user"><br><br> </td>
+        </tr>
+        <tr>
+            <td> <label for="user_pass">Current Password:</label> </td>
+            <td> <input type="text" id="user_pass" name="user_pass"><br><br> </td>
+        </tr>
+        <table>
+    <input style="background-color: red" type="submit" value="Delete">
+</form>
+
+</body>
+
+<script src="https://threejs.org/build/three.js"></script>
+<script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
+<script>
+    VANTA.CELLS({
+        el: "body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 800.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        color1: 0x7071d,
+        color2: 0x3032f,
+        size: 1.20,
+        speed: 3.30
+    })
+</script>
+
+</html>

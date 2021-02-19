@@ -13,14 +13,33 @@ akprathipati - Akshit Prathipati
 We are trying to create a rating system for teachers. We will be taking data that is given by students. Later on, if we are ahead of schedule, we will also try to have the students write comments and we will have a more specific criteria so they can grade their teaching, how hard the tests are, and their knowledge on the material and so on. We will use CRUD to monitor the reviews that are given for offensive and/or hateful messages, and we will try to create a system that prevents students from commenting repeatedly to inflate or deflate any teacher’s rating. Our major goal is to have a concrete understanding on data as well as to provide teachers some constructive feedback so that they can improve their teaching. Many teachers are not that adept at teaching online, and can use this as a learning experience to improve their teaching style.   
 
 # Links
-* [Site] (http://76.176.48.196:5671)
+* [Site](http://76.176.48.196:5671)
 * [Project Plan](https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing)
 * [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1)
 * [AK and Aidan's Easter egg](http://76.176.48.196:5671/)
 * [Roop and Navodit's Easter Egg](http://76.176.48.196:5671/meme)
 
+# Mini Code and Ticket Review
+## Navodit
+* [Login Page](http://127.0.0.1:5006/login)
+* [Signup Page](http://127.0.0.1:5006/registration)
+* Login and Registration page fully functional. CRUD used in these pages. 
+* Used POST and app routes (functions imported on top and app routes at the end) to transfer user data through html and python file to database. [Link to register code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/templates/registration.html#L95) | [Link to login page code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/templates/login.html#L91) | [App route code](https://github.com/LordRoop/P4-Ducks/blob/main/main.py) 
+* Functions made to authorize accounts [Link to code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/create.py#L49)
+* Function made to make sure that every user has an unique user name [Link to code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/register.py)
+
+## Roop
+* [Meme Page](http://127.0.0.1:5006/meme)
+* Meme page fully completed
+* for loop runs on timer cycling through images
+
 # Log 
-* 2/4/21: Aidan changed the code to the [Random Fact Generator easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-53864903) so its compatible with Roop's Nas, and also added the [Who am I easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-54301133).
+* 2/4/21: Aidan changed the code to the [Random Fact Generator easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-53864903) so its compatible with Roop's Nas, and also added the [Who am I easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-54301133). [Aiden's RFG] (http://76.176.48.196:5671/rfg)
+* Ak: Job was to Add CSS to the API, meme page, and the Who am I page. He also had to get a head start on passing data, all he has to do is add commands in the terminal. [Big ticket for AK](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306702)[Ak's CSS] (http://76.176.48.196:5671/rfg)
+* Navodit: Navodit worked on the login and registration backend to be able not have multiple accounts with the same user and email.[Big Ticket for Navodit](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306767) |[ Code](https://github.com/LordRoop/P4-Ducks/blob/main/register.py). He also added the meme page and was able to make it change every 5 seconds [Link to code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/meme.html) | [Link to page](http://76.176.48.196:5671/meme) 
+
+
+# Big Tickets 
 
 * 1/15/21: We were able to add our diliverables that was able to corrospond to our scrum board. [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1) One main ticket ideas were to have a much more ellegant UI, which is deliverbale three. Another main ticket idea was to have an evaluation page where people can rate the teachers, dilverable two. Finally, the last diliverable was to make sure make a login page, where it promotes the user to put username and password and we also created a sign up page as well to avoid spam ratings! Big ticket ideas planned: Comments, Liking comments, Star Reviews, Search bar feature
 @ Aiden is working on the back end code. A near futrue goal is to be able to manage data in a database. It can be used to manage accounts, likes, rating and comments. 
@@ -62,5 +81,9 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Implementation of security measures is in progress.
   - Linux container has been put in a seperate subnet within LAN.
   - Firewall implementation in progress.
+# Big Tickets 
+* Ak: Job was to Add CSS to the API, meme page, and the Who am I page. He also had to get a head start on passing data, all he has to do is add commands in the terminal. [Big ticket for AK](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306702)
 
+* Navodit worked on the login and registration backend to be able not have multiple accounts with the same user and email [Code](https://github.com/LordRoop/P4-Ducks/blob/main/register.py). He also worked on the meme page easter egg by making the images change every 30 minutes. The pictures are also sized and centered.  [Meme Page]() | [Link to code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/meme.html) | [Big Ticket for Navodit](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306767)
 
+* Aiden: devlop the easter egg and made the API compatiable with Roop's portforwarding.[Big Ticket for Aiden](https://github.com/LordRoop/P4-Ducks/projects/1#card-54306731)

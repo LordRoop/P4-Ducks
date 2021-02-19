@@ -3,16 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <title>Who am I?</title>
+
+    <style>
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        h4 {
+            color: white;
+            font-size: 40px;
+        }
+        h6 {
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+
 </head>
 <body>
 <h1>Who Am I?</h1>
 <h4>Aidan Lin</h4>
-<h5>I am learning Python, HTML, CSS, Flask, SQL, and Jinja, and I am trying to become an expert and more fluent in these regions.</h5>
-<h1>Who Am I?</h1>
+<h6>I am learning Python, HTML, CSS, Flask, SQL, and Jinja, and I am trying to become an expert and more fluent in these regions.
+    I know how to design a webpage and I am currently learning how to design a database and how to display the data.
+    I also know how to use a REST API in order to parse and display data. </h6>
 <h4>Ak Prathipati </h4>
-<h5>I am fluent in  programming and am working on becoming an expert. I can: a Python/Flask web server, web frontends  using HTML, CSS, and BootStrap, I know Jinja and can exchange data between the front end and the back end.</h5>
+<h6>I am fluent in  programming and am working on becoming an expert.
+    I can: a Python/Flask web server, web frontends  using HTML, CSS, and BootStrap
+    I know Jinja and can exchange data between the front end and the back end.
+    I am working on getting the commands down for passing data
+    I am learning about API and scraping data
+    I know how to work with CSS and enhance pages</h6>
 <h4>Navodit Maheshwari </h4>
-<h5>I code in Python, HTML, CSS and have some knowledge in C. I can make webpages with images buttons and all input fields. I can also use CSS to make pages more appealing. I am also getting better at creating and using functions</h5>
+<h6>I code in Python, HTML, CSS and have some knowledge in C. I can make webpages with images buttons and all input fields.
+    I can also use CSS to make pages more appealing.
+    I am also getting better at creating and using functions and utilizing them.
+    I am very good at using sqlite databases and make tables where data will be stored.
+    I can also pass data into the database using variables from the outputs of text fields.
+    I also have a basic understanding in Javascript and how it can be used with HTML
+    I am now learning web APIs and being able to allow certain data into the database.
+    I am also learning to be able to write code that recognizes data in database already.</h6>
+<h4>Jagroop Vij</h4>
+<h6>I know how to code in C, Objective C, Swift, Python, and Html.
+    I am in charge of deploying our team's web server.
+    This has taught me how to use Linux operating systems.
+    I am still learning more about linux, and even about coding.
+    I plan on learning much more about linux and the Java Coding Language in the future.</h6>
 
 </body>
+
+<script src="https://threejs.org/build/three.js"></script>
+<script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
+<script>
+    VANTA.CELLS({
+        el: "body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 750.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        color1: 0x7071d,
+        color2: 0x3032f,
+        size: 1.20,
+        speed: 3.30
+    })
+</script>
+
 </html>
+</html>
+<script src="https://threejs.org/build/three.js"></script>
+<script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
+<script>
+    VANTA.CELLS({
+        el: "body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 2000.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        color1: 0x7073d,
+        color2: 0x3032f,
+        size: 2.20,
+        speed: 5.30
+    })
+</script>
+
+
+<style>
+    html, body {
+        margin: 0;
+        height: 100%;
+        color: darkred;
+    }
+
+    h1{
+        font-size: 5em;
+    }
+
+    h5{
+        font-size: 2em;
+        color: blue;
+    }
+
+    .fa{
+        font-size: 3em;
+        letter-spacing: 1em;
+        transition: all .2s;
+        color: white;
+    }
+
+    .fa:hover{
+        transform: translateY(10px);
+    }
+
+    .fa-youtube-play:hover{
+        color: #cc0000;
+    }
+
+    .fa-twitter:hover{
+        color: #1da1f2;
+    }
+
+    .fa-github:hover{
+        color: #000000;
+    }
+
+
+    .btn:link,
+    .btn:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 15px 40px;
+        display: inline-block;
+        border-radius: 100px;
+        transition: all .2s;
+        position: absolute;
+        color: white;
+        font-size: 2.5em;
+    }
+
+    .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+    }
+
+    .btn:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+    }
+
+
+</style>
+
+<</html>

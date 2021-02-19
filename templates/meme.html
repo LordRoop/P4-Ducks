@@ -1,13 +1,69 @@
 <html>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!--
+    <a class="navbar-brand" href="#">Ducks</a>
+    -->
 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="navbar-left"><img src="{{url_for('static', filename='duck.png')}}" style="width:50px;height:50px;"></a>
+            </li>
+            <li class="nav-link active">
+                <a class="nav-link" href="/"> Home </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/math"> Math </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/english"> English </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/science"> Science </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/language"> Foreign Language </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/history"> History </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/ens"> ENS </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/elective"> Electives </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/login"> Login </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/registration"> Register </a>
+            <li class="nav-link">
+                <a class="nav-link" href="/Evaluate"> Evaluate </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
 
 
 <head>
-    <title>MEMES</title>
+
+    <title> MEMES </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <style>
-        .center {
-            text-align: center;
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1{
+            size: 300px;
         }
     </style>
 
@@ -32,8 +88,7 @@
         i++
     }
 </script>
-
-<img id="navo" style="width:300px">
+<img id="navo" style="width:50%">
 <!--
 <img src="static/memes/meme2.png" alt="meme2" style="width:300px">
 
@@ -74,7 +129,7 @@
     })
 </script>
 
-#Navodit was here
+
 </html>
 
 
