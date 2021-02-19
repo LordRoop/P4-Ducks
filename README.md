@@ -27,6 +27,11 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Used POST and app routes (functions imported on top and app routes at the end) to transfer user data through html and python file to database. [Link to register code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/templates/registration.html#L95) | [Link to login page code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/templates/login.html#L91) | [App route code](https://github.com/LordRoop/P4-Ducks/blob/main/main.py) 
 * Functions made to authorize accounts [Link to code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/create.py#L49)
 * Function made to make sure that every user has an unique user name [Link to code](https://github.com/LordRoop/P4-Ducks/blob/55b92de8c86ec6f17f56529a2470460dbaf54419/register.py)
+* The crossover group liked the use of CRUD and mentioned that data in the data base was well organized. [Link to evaluaton](https://drive.google.com/file/d/1ZP822bQrlk-SRHX87UzAG-5tOL4vkk9g/view?usp=sharing)
+* College board
+  * Uses lists to store username, password and email as data
+  * Data is being passed through POST from html file to the python file to go in the Database
+  * Functions are used to make sure that accounts are being created correctly. One account per email and checking username and password when logging in. 
 
 ## Roop
 * [Meme Page](http://76.176.48.196:5671/meme)
