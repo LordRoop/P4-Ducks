@@ -1,63 +1,10 @@
-</html>
+{% extends 'base.html' %}
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <!--
-    <a class="navbar-brand" href="#">Ducks</a>
-    -->
+{% block head %}
+{{ super() }}
+{% endblock %}
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="navbar-left"><img src="{{url_for('static', filename='duck.png')}}" style="width:50px;height:50px;"></a>
-            </li>
-            <li class="nav-link active">
-                <a class="nav-link" href="/"> Home </a>
-            </li>
-            <li class="nav-link">
-                <a class="nav-link" href="/math"> Math </a>
-            </li>
-            <li class="nav-link">
-                <a class="nav-link" href="/english"> English </a>
-            </li>
-            <li class="nav-link">
-                <a class="nav-link" href="/science"> Science </a>
-            </li>
-            <li class="nav-link">
-                <a class="nav-link" href="/language"> Foreign Language </a>
-            </li>
-            <li class="nav-link">
-                <a class="nav-link" style="background-color:black; color:cyan;" href="/history"> History </a>
-            </li>
-            <li class="nav-link">
-                <a class="nav-link" href="/ens"> ENS </a>
-            </li>
-            <li class="nav-link">
-                <a class="nav-link" href="/elective"> Electives </a>
-            </li>
-            <li class="nav-link">
-                <a class="nav-link" href="/login"> Login </a>
-            </li>
-            <li class="nav-link">
-                <a class="nav-link" href="/registration"> Register </a>
-            <li class="nav-link">
-                <a class="nav-link" href="/Evaluate"> Evaluate </a>
-            </li>
-
-        </ul>
-    </div>
-</nav>
-
-
-<head>
-
-    <title> History </title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-</head>
+{% block content %}
 
 <body>
 <center>
@@ -198,89 +145,4 @@
 </body>
 
 
-<script src="https://threejs.org/build/three.js"></script>
-<script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
-<script>
-    VANTA.CELLS({
-      el: "body",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 3000.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      color1: 0x7071d,
-      color2: 0x3032f,
-      size: 1.20,
-      speed: 3.30
-    })
-</script>
-
-
-<style>
-html, body {
-    margin: 0;
-    height: 100%;
-    color: white;
-}
-
-h1{
-    font-size: 5em;
-}
-
-h5{
-    font-size: 2em;
-    color: black;
-}
-
-.fa{
-    font-size: 3em;
-    letter-spacing: 1em;
-    transition: all .2s;
-    color: white;
-}
-
-.fa:hover{
-    transform: translateY(10px);
-}
-
-.fa-youtube-play:hover{
-    color: #cc0000;
-}
-
-.fa-twitter:hover{
-    color: #1da1f2;
-}
-
-.fa-github:hover{
-    color: #000000;
-}
-
-
-.btn:link,
-.btn:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 15px 40px;
-    display: inline-block;
-    border-radius: 100px;
-    transition: all .2s;
-    position: absolute;
-    color: white;
-    font-size: 2.5em;
-}
-
-.btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
-}
-
-.btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
-}
-
-
-</style>
-
-<</html>
+{% endblock %}

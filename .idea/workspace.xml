@@ -22,27 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="Register fixed">
-      <change afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="css + format">
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/P4-Ducks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/P4-Ducks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/arts.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/icons/arts.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/beaker.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/icons/beaker.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/english.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/icons/english.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/history.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/icons/history.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/login.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/math.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/icons/math.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/sports.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/icons/sports.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/world.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/icons/world.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/elective.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/elective.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/english.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/english.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/ens.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ens.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/language.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/language.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/math.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/science.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/science.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user.db" beforeDir="false" afterPath="$PROJECT_DIR$/user.db" afterDir="false" />
     </list>
@@ -98,16 +90,18 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/subject" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/icons" />
       <recent name="$PROJECT_DIR$/static/css" />
-      <recent name="C:\Users\jagro\IdeaProjects\P4-Ducks\static\memes" />
     </key>
   </component>
   <component name="RunManager">
@@ -147,7 +141,9 @@
       <workItem from="1612511157489" duration="727000" />
       <workItem from="1612514219513" duration="1020000" />
       <workItem from="1614471483036" duration="2822000" />
-      <workItem from="1614475496436" duration="2047000" />
+      <workItem from="1614475496436" duration="9067000" />
+      <workItem from="1614497394072" duration="212000" />
+      <workItem from="1614498214776" duration="4111000" />
     </task>
     <task id="LOCAL-00001" summary="i have to commit this to pull">
       <created>1610084867306</created>
@@ -261,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613034664726</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="css + format">
+      <created>1614479767128</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1614479767128</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,14 +300,15 @@
     <MESSAGE value="database" />
     <MESSAGE value="meme centered" />
     <MESSAGE value="CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD" />
+    <MESSAGE value="css + format" />
+    <option name="LAST_COMMIT_MESSAGE" value="css + format" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/P4_Ducks$main.coverage" NAME="main Coverage Results" MODIFIED="1614473908680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P4_Ducks$main.coverage" NAME="main Coverage Results" MODIFIED="1614500634527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P4_Ducksss123$main.coverage" NAME="main Coverage Results" MODIFIED="1612508126589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P4_Ducksmaster$main.coverage" NAME="main Coverage Results" MODIFIED="1612481122865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P4_Ducksmaster$mainnnnn.coverage" NAME="mainnnnn Coverage Results" MODIFIED="1611969499078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -41,8 +41,8 @@ select {
     margin-bottom: 30px;
 }
 input[type="submit"],
-input[type="button"],
-input[type="email"] {
+input[type="button"]
+ {
     padding: 19px 39px 18px 39px;
     color: #FFF;
     background-color: #4bc970;
