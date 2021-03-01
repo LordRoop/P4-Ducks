@@ -1,6 +1,6 @@
 import sqlite3
 
-def createTable() :
+def createTable2() :
     print ("In Create Table")
     conn = sqlite3.connect('teacher.db')
     # Creating a Cursor
@@ -10,7 +10,7 @@ def createTable() :
         Rate text ,
         Comment text ,
         
-        PRIMARY KEY(user_id, user_email)
+       
     )""")
 
     # Commit our command
@@ -20,19 +20,8 @@ def createTable() :
     conn.close
 
 
-def writeDummyData():
-    conn = sqlite3.connect('teacher.db')
-    # Creating a Cursor
-    c = conn.cursor()
-    print ("writing dummy data")
-    c.execute("INSERT INTO users VALUES ('navo','navopass','navo@navo.com')")
-    print('Data added')
-    # Commit our command
-    conn.commit()
-    #Close Connection
-    conn.close
 
-def getData():
+def getData2():
     conn = sqlite3.connect('teacher.db')
     # Creating a Cursor
     c = conn.cursor()
