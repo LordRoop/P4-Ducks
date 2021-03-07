@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Sign Up</title>
     <style>
+        body, html {
+            height: 100%;
+        }
+
         .container{
             position:relative;
             width:90vw;
@@ -69,7 +73,11 @@
         body{
             height: 100vh;
             display:flex;
-            background: azure;
+            background-image: url(../static/dnhs.jpg);
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         h1{
@@ -130,27 +138,5 @@
         </div>
     </div>
 </div>
-
 </body>
-
-<script src="https://threejs.org/build/three.js"></script>
-<script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
-<script>
-    VANTA.CELLS({
-        el: "body",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 750.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        color1: 0x7071d,
-        color2: 0x3032f,
-        size: 1.20,
-        speed: 3.30
-    })
-</script>
-
-
-
 </html>

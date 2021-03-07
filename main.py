@@ -105,6 +105,8 @@ def deleteAccount():
 def star():
     return flask.render_template("star.html")
 
+
+
 if __name__ == "__main__":
     app.run(debug=True, port=' 5006', host='127.0.0.1')
 

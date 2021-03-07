@@ -33,28 +33,24 @@ select {
     height: auto;
     margin: 0;
     outline: 0;
-    padding: 15px;
+    padding: 13px;
     width: 100%;
     background-color: #e8eeef;
     color: #8a97a0;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
     margin-bottom: 30px;
 }
+}
 input[type="submit"],
 input[type="button"]
- {
+{
     padding: 19px 39px 18px 39px;
     color: #FFF;
-    background-color: #4bc970;
+    background-color: darkolivegreen;
     font-size: 18px;
     text-align: center;
     font-style: normal;
-    border-radius: 5px;
     width: 100%;
-    border: 1px solid #3ac162;
-    border-width: 1px 1px 3px;
-    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-    margin-bottom: 10px;
 }
 
 
