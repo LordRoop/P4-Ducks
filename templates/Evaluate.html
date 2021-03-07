@@ -1,7 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+
     <title>Login</title>
     <style>
          .container{
@@ -66,11 +73,9 @@
         }
 
 
-        body{
-          height: 100vh;
-          display:flex;
-          background: azure;
-        }
+         body{
+             background-color: #243447;
+         }
 
     </style>
 </head>
@@ -125,24 +130,4 @@
 
 </body>
 
-<script src="https://threejs.org/build/three.js"></script>
-<script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
-<script>
-    VANTA.CELLS({
-      el: "body",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 750.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      color1: 0x7071d,
-      color2: 0x3032f,
-      size: 1.20,
-      speed: 3.30
-    })
-</script>
-
-
-
-</html>
+{% endblock %}

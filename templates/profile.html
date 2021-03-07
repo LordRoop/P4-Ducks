@@ -1,8 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
 <head>
-    <meta charset="UTF-8">
-    <title>My Profile</title>
+    <title> Profile </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <style>
 
@@ -41,9 +46,14 @@
             box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
             margin-bottom: 10px;
         }
-
+        body {
+            height: 100%;
+            background-color: #243447; !important;
+        }
     </style>
 </head>
+
+
 <body>
 <center>
 
@@ -99,26 +109,8 @@
         </tr>
         <table>
     <input style="background-color: red" type="submit" value="Delete">
-</form>
+    </form>
 
 </body>
 
-<script src="https://threejs.org/build/three.js"></script>
-<script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
-<script>
-    VANTA.CELLS({
-        el: "body",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 1500.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        color1: 0x7071d,
-        color2: 0x3032f,
-        size: 1.20,
-        speed: 3.30
-    })
-</script>
-
-</html>
+{% endblock %}
