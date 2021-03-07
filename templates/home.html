@@ -115,6 +115,54 @@
             background-color: #243447;
         }
 
+        .btn{
+            position: relative;
+            padding: 150px 100px;
+            border: 2px solid #41f321;
+            margin: 10px;
+            display: inline-block;
+            text-decoration: #41f321;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: 0.5s;
+            overflow: hidden;
+            font-size: 24px;
+            color: white;
+        }
+
+
+
+        .btn:hover{
+            color: #111;
+        }
+
+        .btn span{
+            position: absolute;
+            display: block;
+            width: 0px;
+            height: 0px;
+            transform: translate(-50%,-50%);
+            border-radius: 50%;
+            transition: width 0.5s, height 0.5s;
+            z-index: -1;
+        }
+
+        .btn1 span {background: #4bc970;}
+        .btn2 span {background: #51d7f5;}
+        .btn3 span {background: #ebd026;}
+        .btn4 span {background: #fc4747;}
+        .btn5 span {background: #518050;}
+        .btn6 span {background: #865be3;}
+        .btn7 span {background: #6ae6cd;}
+
+
+
+
+        .btn:hover span{
+            width: 600px;
+            height: 600px;
+        }
+
     </style>
 </head>
 
@@ -146,9 +194,47 @@
     <div class="row justify-content-center" style="padding-top: 0%; padding-bottom: 1%; text-align: center;">
         <h3>Teacher Rating And Evaluation</h3>
     </div>
+        <table align="center">
+            <tr>
+                <td>
+                    <a href="#" class="btn btn1"><span></span>Math</a>
+                    <a href="#" class="btn btn2"><span></span>English</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="#" class="btn btn3"><span></span>Language</a>
+                    <a href="#" class="btn btn4"><span></span>History</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="#" class="btn btn5"><span></span>Science</a>
+                    <a href="#" class="btn btn6"><span></span>Elective</a>
+                </td>
+            <tr>
+                <td>
+                    <a href="#" class="btn btn7"><span></span>ENS</a>
+                </td>
+            </tr>
+        </table>
 
 </div>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function (e){
+            $('.btn').on('mouseenter', function (e){
+            x = e.pagex -$(this).offset().left;
+            y = e.pagex -$(this).offset().top;
+            $(this).find('span').css({top:y,left:x})
+        })
+            $('.btn').on('mouseout', function (e){
+            x = e.pagex -$(this).offset().left;
+            y = e.pagex -$(this).offset().top;
+            $(this).find('span').css({top:y,left:x})
+        })
+    })
+</script>
 </body>
 <!--
 <div class="footer">
