@@ -22,11 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="css on home,login,register. database of teachers started">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="dashboard" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +187,7 @@
       <workItem from="1614804333225" duration="684000" />
       <workItem from="1614887326670" duration="2216000" />
       <workItem from="1615077448806" duration="4426000" />
-      <workItem from="1615092791660" duration="5305000" />
+      <workItem from="1615092791660" duration="5641000" />
     </task>
     <task id="LOCAL-00001" summary="i have to commit this to pull">
       <created>1610084867306</created>
@@ -326,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615082078782</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="dashboard">
+      <created>1615131866436</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615131866437</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +368,8 @@
     <MESSAGE value="css + format" />
     <MESSAGE value="added star html file" />
     <MESSAGE value="css on home,login,register. database of teachers started" />
-    <option name="LAST_COMMIT_MESSAGE" value="css on home,login,register. database of teachers started" />
+    <MESSAGE value="dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
