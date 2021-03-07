@@ -22,7 +22,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="dashboard" />
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="nav bar fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Evaluate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Evaluate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/elective.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/elective.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/english.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/english.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ens.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ens.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/language.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/language.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/math.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rfg.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rfg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/science.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/science.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +201,7 @@
       <workItem from="1614804333225" duration="684000" />
       <workItem from="1614887326670" duration="2216000" />
       <workItem from="1615077448806" duration="4426000" />
-      <workItem from="1615092791660" duration="5641000" />
+      <workItem from="1615092791660" duration="6671000" />
     </task>
     <task id="LOCAL-00001" summary="i have to commit this to pull">
       <created>1610084867306</created>
@@ -329,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615131866437</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="nav bar fix">
+      <created>1615131984163</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615131984163</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +390,8 @@
     <MESSAGE value="added star html file" />
     <MESSAGE value="css on home,login,register. database of teachers started" />
     <MESSAGE value="dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="dashboard" />
+    <MESSAGE value="nav bar fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="nav bar fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -377,7 +399,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/P4_Ducksss123$create2.coverage" NAME="create2 Coverage Results" MODIFIED="1614553156301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/P4_Ducks$main.coverage" NAME="main Coverage Results" MODIFIED="1615093430779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P4_Ducks$main.coverage" NAME="main Coverage Results" MODIFIED="1615132076823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P4_Ducksss123$main.coverage" NAME="main Coverage Results" MODIFIED="1612508126589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P4_Ducksmaster$main.coverage" NAME="main Coverage Results" MODIFIED="1612481122865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P4_Ducksss123$create.coverage" NAME="create Coverage Results" MODIFIED="1614630068591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
