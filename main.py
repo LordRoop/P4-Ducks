@@ -13,8 +13,14 @@ app.secret_key = 'mySecretKey'
 
 @app.route('/')
 def home():
+    urldnhs = "https://publish.twitter.com/oembed?url=https://twitter.com/dnhsnighthawks"
+    urlpoway = "https://publish.twitter.com/oembed?url=https://twitter.com/powayunified"
+    responsednhs = requests.get(urldnhs)
+    responsepoway = requests.get(urlpoway)
+    jsonurldnhs = responsednhs.json()['url']
+    jsonurlpoway = responsepoway.json()['url']
     if 'username' in session:
-        return flask.render_template("home.html", projects=data.setup(), data=data.runtime())
+        return flask.render_template("home.html", projects=data.setup(), data=data.runtime(), jsonurldnhs=jsonurldnhs, jsonurlpoway=jsonurlpoway)
     else:
         return flask.render_template("login.html")
 
