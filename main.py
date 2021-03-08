@@ -1,19 +1,25 @@
 import data
 import flask
-from flask import request, redirect
+from flask import request, redirect, session
 from register import newuser
 from login import validate
 import requests
-from create import updatepwd, delete
-
-
+import json
+from create import updatepwd, delete, logOut
+from tdatabase import getData, writeRatingtoTable
 
 app = flask.Flask(__name__)
-
+app.secret_key = 'mySecretKey'
 
 @app.route('/')
 def home():
-    return flask.render_template("home.html", projects=data.setup(), data=data.runtime())
+    if 'username' in session:
+        return flask.render_template("home.html", projects=data.setup(), data=data.runtime())
+    else:
+        return flask.render_template("login.html")
+
+
+
 
 @app.route('/profile')
 def profile():
@@ -101,9 +107,31 @@ def changepwd():
 def deleteAccount():
     return flask.render_template("profile.html", error=delete(request))
 
+@app.route('/signOut', methods=['POST'])
+def signOut():
+    logOut()
+    return flask.render_template("login.html")
+
 @app.route('/star')
 def star():
     return flask.render_template("star.html")
+
+@app.route('/teachers', methods=['GET'])
+def getTeachers():
+    subject = request.args.get("subject")
+    items = getData(subject)
+    json_str = json.dumps(items)
+    return flask.render_template("rating.html", teacherList=json_str)
+
+@app.route('/submitRating', methods=['POST'])
+def saveRating():
+    teacherID = request.args.get("teacherId")
+    teacherName = request.args.get("teacherName")
+    teacherRating = request.args.get("rating")
+    if writeRatingtoTable(teacherID, teacherName, teacherRating) == 1:
+        return flask.render_template("rating.html", error=1)
+    else:
+        return flask.render_template("rating.html", error=0)
 
 
 

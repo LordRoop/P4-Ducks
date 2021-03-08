@@ -1,6 +1,8 @@
 import sqlite3
 
 
+
+
 def createTable():
     print("In Create Table")
     conn = sqlite3.connect('tlist.db')
@@ -70,7 +72,7 @@ def getData(subject):
     conn = sqlite3.connect('tlist.db')
     # Creating a Cursor
     c = conn.cursor()
-    print("Getting Data")
+    print("Getting Data for:", subject)
     c.execute("SELECT * FROM teachers where subject = (?)", (subject,))
     items = c.fetchall()
     for item in items:
@@ -78,6 +80,7 @@ def getData(subject):
 
     # Close Connection
     conn.close
+    return items
 
 def resetTtable():
     conn= sqlite3.connect('tlist.db')
@@ -85,6 +88,29 @@ def resetTtable():
     c.execute("DELETE FROM teachers")
     conn.close()
 
+def writeRatingtoTable(teacherId, teacherName, rating):
+    userId = session.get("username")
+    conn = sqlite3.connect('tlist.db')
+    # Creating a Cursor
+    c = conn.cursor()
+    print("writing star data for teacherName")
+    row = [teacherId, teacherName, userId, rating]
+    c.execute("INSERT INTO rating VALUES (?,?,?,?)", row)
+    conn.commit()
+    conn.close()
+    print("wrote in database ", row)
+    return 1
 
-def getTeachers():
-    getData("English")
+def getRatingData():
+
+    conn = sqlite3.connect('tlist.db')
+    # Creating a Cursor
+    c = conn.cursor()
+    c.execute("SELECT * FROM rating")
+    items = c.fetchall()
+    for item in items:
+        print("teacher_id" + "\t" + str(item[0]) + "\t" + "teacher_name" + "\t" + item[1] + "\t" + "user_Id" + "\t" + item[2] + "rating" + "\t" + item[3])
+
+    # Close Connection
+    conn.close
+    return items

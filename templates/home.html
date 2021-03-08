@@ -80,6 +80,31 @@
     <title> TRAE|Home </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript">
+
+        // Wait for the page to load first
+    /*    window.onload = function() {
+
+            //Get a reference to the link on the page
+            // with an id of "mylink"
+            let btns = document.querySelectorAll('.btn');
+            for (i of btns) {
+                i.addEventListener('click', function() {
+                    subject =this.id;
+
+                    let request = new XMLHttpRequest();
+                    request.open("GET", "/teachers?subject=" + subject);
+                    request.send();
+
+                    return false;
+                });
+            }
+        }
+*/
+    </script>
+
+
     <style>
         h1{
             font-size: 5em;
@@ -197,24 +222,24 @@
         <table align="center">
             <tr>
                 <td>
-                    <a href="#" class="btn btn1"><span></span>Math</a>
-                    <a href="#" class="btn btn2"><span></span>English</a>
+                    <a href="{{ url_for('getTeachers', subject='Math') }}" class="btn btn1" id="Math"><span></span>Math</a>
+                    <a href="{{ url_for('getTeachers', subject='English') }}" class="btn btn2" id="English"><span></span>English</a>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <a href="#" class="btn btn3"><span></span>Language</a>
-                    <a href="#" class="btn btn4"><span></span>History</a>
+                    <a href="{{ url_for('getTeachers', subject='Language') }}" class="btn btn3" id="Language"><span></span>Language</a>
+                    <a href="{{ url_for('getTeachers', subject='History') }}" class="btn btn4" id="History"><span></span>History</a>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <a href="#" class="btn btn5"><span></span>Science</a>
-                    <a href="#" class="btn btn6"><span></span>Elective</a>
+                    <a href="{{ url_for('getTeachers', subject='Science') }}" class="btn btn5" id="Science"><span></span>Science</a>
+                    <a href="{{ url_for('getTeachers', subject='Elective') }}" class="btn btn6" id="Elective"><span></span>Elective</a>
                 </td>
             <tr>
                 <td>
-                    <a href="#" class="btn btn7"><span></span>ENS</a>
+                    <a href="{{ url_for('getTeachers', subject='ENS') }}" class="btn btn7" id="ENS"><span></span>ENS</a>
                 </td>
             </tr>
         </table>

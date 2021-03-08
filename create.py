@@ -1,5 +1,8 @@
 import sqlite3
 
+from flask import session
+
+
 def createTable() :
     print ("In Create Table")
     conn = sqlite3.connect('user.db')
@@ -73,9 +76,11 @@ def checkLogin(request):
         return 0
     # close our connection
     conn.close()
-
+    session['username'] = user
     return 1
 
+def logOut():
+    session.pop('username', None)
 
 def updatepwd(request):
 
@@ -107,6 +112,7 @@ def delete(request):
         c.execute("DELETE FROM users WHERE user_id = ?", (user,))
         conn.commit()
         conn.close()
+        logOut()
         return "Account Deleted"
 
 
