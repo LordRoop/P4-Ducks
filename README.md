@@ -5,7 +5,14 @@ LordRoop - Jagroop Vij
 
 aidanlin4 - Aidan Lin
 
-akprathipati - Akshit Prathipati
+akprathipati - Ak Prathipati
+
+# Technicals on project summerized
+* Login system using Get and POST as highlighed in tech talk 
+* Evaluation using star rating system  using Get and POST methods
+* Web Api using twitter about the school district
+* Use of CRUD operation(Algo for CB)
+* Elegant UI and HTML using extend(adressed from concern when you graded project last time)
 
 
 
