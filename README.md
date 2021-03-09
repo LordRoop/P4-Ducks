@@ -8,11 +8,11 @@ aidanlin4 - Aidan Lin
 akprathipati - Ak Prathipati
 
 # Technicals on project summerized
-* Login system using Get and POST as highlighed in tech talk Running Code: 
-* Evaluation using star rating system  using Get and POST methods
-* Web Api using twitter about the school district
-* Use of CRUD operation(Algo for CB)
-* Elegant UI and HTML using extend(adressed from concern when you graded project last time)
+* Login system using Get and POST as highlighed in tech talk Running Code: http://76.176.48.196:5671/login 
+* Evaluation using star rating system  using Get and POST methods Running code: http://76.176.48.196:5671/teachers?subject=Math 
+* Web Api using twitter about the school district Running Code: http://76.176.48.196:5671 (Scroll down to see it)
+* Use of CRUD operation(Algo for CB): Running code:http://76.176.48.196:5671/profile
+* Elegant UI and HTML using extend(adressed from concern when you graded project last time) Running code: http://76.176.48.196:5671 
 
 
 
