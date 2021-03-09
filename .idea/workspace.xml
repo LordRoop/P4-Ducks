@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="lots of work done on star rating system">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="added twitter embed api">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/whoami.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/whoami.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615131984163</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added twitter embed api">
+      <created>1615193653906</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615193653906</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +400,8 @@
     <MESSAGE value="css on home,login,register. database of teachers started" />
     <MESSAGE value="dashboard" />
     <MESSAGE value="nav bar fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="nav bar fix" />
+    <MESSAGE value="added twitter embed api" />
+    <option name="LAST_COMMIT_MESSAGE" value="added twitter embed api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

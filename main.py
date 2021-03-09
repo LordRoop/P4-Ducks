@@ -13,10 +13,12 @@ app.secret_key = 'mySecretKey'
 
 @app.route('/')
 def home():
+    #twitter embed api url
     urldnhs = "https://publish.twitter.com/oembed?url=https://twitter.com/dnhsnighthawks"
     urlpoway = "https://publish.twitter.com/oembed?url=https://twitter.com/powayunified"
     responsednhs = requests.get(urldnhs)
     responsepoway = requests.get(urlpoway)
+    #set url value in json to variable
     jsonurldnhs = responsednhs.json()['url']
     jsonurlpoway = responsepoway.json()['url']
     if 'username' in session:
