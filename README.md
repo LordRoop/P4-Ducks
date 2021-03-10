@@ -25,7 +25,7 @@ akprathipati - Ak Prathipati
   - Able to change and delete acount information. 
   - Signout button signs out the account and leads to the login page. 
 * Home Page
-  - Accessable animated buttons on home page that lead to teacher rating pages for the specific subject [code] https://github.com/LordRoop/P4-Ducks/blob/main/templates/rating.html
+  - Accessable animated buttons on home page that lead to teacher rating pages for the specific subject [code] (https://github.com/LordRoop/P4-Ducks/blob/main/templates/rating.html)
   - Navigation bar contains link to important pages rearding the account
   - Easter eggs in home page  
 
