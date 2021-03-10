@@ -7,7 +7,7 @@ aidanlin4 - Aidan Lin
 
 akprathipati - Ak Prathipati
 
-[Link to Site](http://76.176.48.196:5671)
+#[Link to Site](http://76.176.48.196:5671)
 
 # Project Technicals
 * Register and Login
