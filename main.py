@@ -13,16 +13,9 @@ app.secret_key = 'mySecretKey'
 
 @app.route('/')
 def home():
-    #twitter embed api url
-    urldnhs = "https://publish.twitter.com/oembed?url=https://twitter.com/dnhsnighthawks"
-    urlpoway = "https://publish.twitter.com/oembed?url=https://twitter.com/powayunified"
-    responsednhs = requests.get(urldnhs)
-    responsepoway = requests.get(urlpoway)
-    #set url value in json to variable
-    jsonurldnhs = responsednhs.json()['url']
-    jsonurlpoway = responsepoway.json()['url']
+
     if 'username' in session:
-        return flask.render_template("home.html", projects=data.setup(), data=data.runtime(), jsonurldnhs=jsonurldnhs, jsonurlpoway=jsonurlpoway)
+        return flask.render_template("home.html", projects=data.setup(), data=data.runtime())
     else:
         return flask.render_template("login.html")
 
@@ -141,7 +134,15 @@ def star():
 
 @app.route('/news')
 def news():
-    return flask.render_template("news.html")
+    #twitter embed api url
+    urldnhs = "https://publish.twitter.com/oembed?url=https://twitter.com/dnhsnighthawks"
+    urlpoway = "https://publish.twitter.com/oembed?url=https://twitter.com/powayunified"
+    responsednhs = requests.get(urldnhs)
+    responsepoway = requests.get(urlpoway)
+    #set url value in json to variable
+    jsonurldnhs = responsednhs.json()['url']
+    jsonurlpoway = responsepoway.json()['url']
+    return flask.render_template("news.html", jsonurldnhs=jsonurldnhs, jsonurlpoway=jsonurlpoway)
 
 @app.route('/teachers', methods=['GET'])
 def getTeachers():

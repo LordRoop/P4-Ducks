@@ -1,13 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
 <head>
     <meta charset="UTF-8">
-    <title>news</title>
+    <title>News</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: #243447;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 <body>
 <!-- twitter embed from api -->
-<a class="twitter-timeline" data-chrome="transparent" data-width="360" data-height="600" data-theme="dark" href={{jsonurlpoway}}></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<a class="twitter-timeline" data-chrome="transparent" data-width="360" data-height="600" data-theme="dark" href={{jsonurldnhs}}></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div>
+        <a class="twitter-timeline" data-chrome="transparent" data-width="500" data-height="700" data-theme="dark" href={{jsonurlpoway}}></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<div>
+            <a class="twitter-timeline" data-chrome="transparent" data-width="500" data-height="700" data-theme="dark" href={{jsonurldnhs}}></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 </body>
-</body>
-</html>
+
+{% endblock %}
