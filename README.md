@@ -12,14 +12,14 @@ akprathipati - Ak Prathipati
   - Login system using Get and POST as highlighed in tech talk Running Code: http://76.176.48.196:5671/login
   - Register page linked with button on Login page.
   - Use of SQLite to make database to store accounts.
-  - CSS used for asthetics of background, text font and buttons.
+  - CSS used for asthetics of background, text font and buttons. https://github.com/LordRoop/P4-Ducks/blob/main/templates/home.html
   - 
 * Evaluation using star rating system  using Get and POST methods Running code(WOW):
 * http://76.176.48.196:5671/teachers?subject=Math
   - Pulling name of teachers and their subjects from data base. 
   - Using radio buttons for rating. 
   - Teacher information, login information stored in the database.  
-* Web Api using twitter about the school district Running Code: http://76.176.48.196:5671
+* Web Api using twitter about the school district Running Code: http://76.176.48.196:5671/news
   - PowayUSD and DelNorte twitter accounts used for news for the school and district.
 * Use of CRUD operation(Algo for CB): Running code:http://76.176.48.196:5671/profile
   - Able to change and delete acount information. 
