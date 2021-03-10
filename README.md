@@ -73,7 +73,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Added Random Fact Generator Easter Egg API
 * Created [Who Am I Easter Egg](http://76.176.48.196:5671/whoami)
 * Implemented [Twitter WEB API](http://76.176.48.196:5671/news) to embed twitter profiles to get updated on school's twitter
-* Meets [College Board requirements](https://drive.google.com/file/d/1o27CE_wJgGf1s4DooOijO3A4PqTF_bkE/view?usp=sharing)
+
 
 ## AK
 *Added CSS to Easter egg (http://76.176.48.196:5671/)
@@ -82,7 +82,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Worked on main UI:[Main CSS](http://76.176.48.196:5671/teachers?subject=Math)  
 * Created comment section and drop down rating system[Evaluation](http://76.176.48.196:5671/math)
 * Worked on the CSS and the esthtics of the code
-* Was able to meet College Board requirements: https://drive.google.com/file/d/1o27CE_wJgGf1s4DooOijO3A4PqTF_bkE/view?usp=sharing talks about where we are 
+* Was able to meet College Board requirements(Worked on college board implemnetation): https://drive.google.com/file/d/1o27CE_wJgGf1s4DooOijO3A4PqTF_bkE/view?usp=sharing talks about where we are 
 *Able to change some CSS on teacher pages as instructed by the bulls 
 # Log 
 * 2/4/21: Aidan changed the code to the [Random Fact Generator easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-53864903) so its compatible with Roop's Nas, and also added the [Who am I easter egg](https://github.com/LordRoop/P4-Ducks/projects/1#card-54301133). [Aiden's RFG] (http://76.176.48.196:5671/rfg)
