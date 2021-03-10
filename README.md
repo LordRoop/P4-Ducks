@@ -9,6 +9,13 @@ akprathipati - Ak Prathipati
 
 # [Link to Site](http://76.176.48.196:5671)
 
+# Links
+* [Site](http://76.176.48.196:5671)
+* [Project Plan](https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing)
+* [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1)
+* [AK and Aidan's Easter egg](http://76.176.48.196:5671/)
+* [Roop and Navodit's Easter Egg](http://76.176.48.196:5671/meme)
+
 # Project Technicals
 * Register and Login
   - Login system using Get and POST as highlighed in tech talk Running Code: http://76.176.48.196:5671/login
@@ -38,12 +45,7 @@ akprathipati - Ak Prathipati
 # Summary 
 We are trying to create a rating system for teachers. We will be taking data that is given by students. Later on, if we are ahead of schedule, we will also try to have the students write comments and we will have a more specific criteria so they can grade their teaching, how hard the tests are, and their knowledge on the material and so on. We will use CRUD to monitor the reviews that are given for offensive and/or hateful messages, and we will try to create a system that prevents students from commenting repeatedly to inflate or deflate any teacher’s rating. Our major goal is to have a concrete understanding on data as well as to provide teachers some constructive feedback so that they can improve their teaching. Many teachers are not that adept at teaching online, and can use this as a learning experience to improve their teaching style.   
 
-# Links
-* [Site](http://76.176.48.196:5671)
-* [Project Plan](https://docs.google.com/document/d/1wxPf8kZwcLD7A78uW7GT-fFjmGbNxHtRAVDDZ21xz30/edit?usp=sharing)
-* [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1)
-* [AK and Aidan's Easter egg](http://76.176.48.196:5671/)
-* [Roop and Navodit's Easter Egg](http://76.176.48.196:5671/meme)
+
 
 # Mini Code and Ticket Review
 ## Navodit
