@@ -7,6 +7,8 @@ aidanlin4 - Aidan Lin
 
 akprathipati - Ak Prathipati
 
+[Link to Site](http://76.176.48.196:5671)
+
 # Project Technicals
 * Register and Login
   - Login system using Get and POST as highlighed in tech talk Running Code: http://76.176.48.196:5671/login
