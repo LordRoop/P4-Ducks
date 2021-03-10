@@ -14,7 +14,7 @@ akprathipati - Ak Prathipati
   - Login system using Get and POST as highlighed in tech talk Running Code: http://76.176.48.196:5671/login
   - Register page linked with button on Login page.
   - Use of SQLite to make database to store accounts.
-  - CSS used for asthetics of background, text font and buttons. [code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/home.html)
+  - CSS used for asthetics of background, text font and buttons functional. [code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/home.html)
   - 
 * Evaluation using star rating system  using Get and POST methods Running code(WOW):
 * http://76.176.48.196:5671/teachers?subject=Math
