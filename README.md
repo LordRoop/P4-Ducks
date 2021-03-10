@@ -16,16 +16,16 @@ akprathipati - Ak Prathipati
   - 
 * Evaluation using star rating system  using Get and POST methods Running code(WOW):
 * http://76.176.48.196:5671/teachers?subject=Math
-  - Pulling name of teachers and their subjects from data base. 
+  - Pulling name of teachers and their subjects from data base. https://github.com/LordRoop/P4-Ducks/blob/main/templates/rating.html
   - Using radio buttons for rating. 
-  - Teacher information, login information stored in the database.  
+  - Teacher information, login information stored in the database.  https://github.com/LordRoop/P4-Ducks/blob/main/templates/rating.html
 * Web Api using twitter about the school district Running Code: http://76.176.48.196:5671/news
-  - PowayUSD and DelNorte twitter accounts used for news for the school and district.
+  - PowayUSD and DelNorte twitter accounts used for news for the school and district. https://github.com/LordRoop/P4-Ducks/blob/main/templates/news.html
 * Use of CRUD operation(Algo for CB): Running code:http://76.176.48.196:5671/profile
   - Able to change and delete acount information. 
   - Signout button signs out the account and leads to the login page. 
 * Home Page
-  - Accessable animated buttons on home page that lead to teacher rating pages for the specific subject
+  - Accessable animated buttons on home page that lead to teacher rating pages for the specific subject [code]https://github.com/LordRoop/P4-Ducks/blob/main/templates/rating.html
   - Navigation bar contains link to important pages rearding the account
   - Easter eggs in home page  
 
