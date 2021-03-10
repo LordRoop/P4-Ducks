@@ -1,6 +1,6 @@
 import sqlite3
 
-from flask import session
+#from flask import session
 
 
 def createTable() :
@@ -76,11 +76,9 @@ def checkLogin(request):
         return 0
     # close our connection
     conn.close()
-    session['username'] = user
+
     return 1
 
-def logOut():
-    session.pop('username', None)
 
 def updatepwd(request):
 
@@ -112,10 +110,9 @@ def delete(request):
         c.execute("DELETE FROM users WHERE user_id = ?", (user,))
         conn.commit()
         conn.close()
-        logOut()
-        return "Account Deleted"
+        return 1
 
 
     else:
-        return "Username or Password Incorrect"
+        return 0
 

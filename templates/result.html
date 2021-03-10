@@ -1,16 +1,5 @@
 <html>
 
-{% set source = projects.get_source() %} <!-- source of project dict -->
-{% set name = source["name"] %}
-{% set github = source["github"] %}
-{% set youtube = source["youtube"] %}
-
-{% set greeting = data["greeting"] %}
-{% set doa = data["doa"] %}
-{% set doah = data["doah"] %}
-{% set job = data["job"] %}
-{% set embed = data["embed"] %}
-{% set gist = data["gist"] %}
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <!--
@@ -30,7 +19,14 @@
                 <a class="nav-link" href="/"> Home </a>
             </li>
             <li class="nav-link">
-                <a class="nav-link" href="/result"> Result </a>
+                <a class="nav-link" href="/Result"> Result </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/test"> Test </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/Evaluate"> Evaluate </a>
+            <li class="nav-link">
             </li>
             <li class="nav-link">
                 <a class="nav-link" href="/profile"> Profile </a>
@@ -174,48 +170,30 @@
 
 <div class="container-fluid">
 
-    <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">
-
-        <div class="col-3" style="text-align: right;">
-
-
-            <button class="button button1" onclick="window.location.href='/meme';"> </button>
-            <button class="button button1" onclick="window.location.href='/whoami';"> </button>
-        </div>
-
-    </div>
-
-    <div class="row justify-content-center" style="text-align: center;">
-        <button class="button button2" onclick="window.location.href='/rfg'"><img src="{{url_for('static', filename='duck.png')}}" style="width:150px;height:150px;">
-            <!--<h1>Ducks</h1>-->
-        </button>
-    </div>
-
-
     <div class="row justify-content-center" style="padding-top: 5%; padding-bottom: 1%; text-align: center;">
-        <h3>Welcome to the DNHS</h3>
+        <h3></h3>
     </div>
     <div class="row justify-content-center" style="padding-top: 0%; padding-bottom: 1%; text-align: center;">
-        <h3>Teacher Rating And Evaluation</h3>
+        <h3>Teacher Rating Result</h3>
     </div>
         <table align="center">
             <tr>
                 <td>
-                    <a href="{{ url_for('getTeachers', subject='Math') }}" class="btn btn1" id="Math"><span></span>Math</a>
-                    <a href="{{ url_for('getTeachers', subject='English') }}" class="btn btn2" id="English"><span></span>English</a>
-                    <a href="{{ url_for('getTeachers', subject='Language') }}" class="btn btn3" id="Language"><span></span>Language</a>
+                    <a href="{{ url_for('result', subject='Math') }}" class="btn btn1" id="Math"><span></span>Math</a>
+                    <a href="{{ url_for('result', subject='English') }}" class="btn btn2" id="English"><span></span>English</a>
+                    <a href="{{ url_for('result', subject='Language') }}" class="btn btn3" id="Language"><span></span>Language</a>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <a href="{{ url_for('getTeachers', subject='History') }}" class="btn btn4" id="History"><span></span>History</a>
-                    <a href="{{ url_for('getTeachers', subject='Science') }}" class="btn btn5" id="Science"><span></span>Science</a>
-                    <a href="{{ url_for('getTeachers', subject='Elective') }}" class="btn btn6" id="Elective"><span></span>Elective</a>
+                    <a href="{{ url_for('result', subject='History') }}" class="btn btn4" id="History"><span></span>History</a>
+                    <a href="{{ url_for('result', subject='Science') }}" class="btn btn5" id="Science"><span></span>Science</a>
+                    <a href="{{ url_for('result', subject='Elective') }}" class="btn btn6" id="Elective"><span></span>Elective</a>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <a href="{{ url_for('getTeachers', subject='ENS') }}" class="btn btn7" id="ENS"><span></span>ENS</a>
+                    <a href="{{ url_for('result', subject='ENS') }}" class="btn btn7" id="ENS"><span></span>ENS</a>
                 </td>
             </tr>
         </table>

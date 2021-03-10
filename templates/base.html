@@ -19,36 +19,38 @@
                 <a class="nav-link" href="/"> Home </a>
             </li>
             <li class="nav-link">
-                <a class="nav-link" href="/math"> Math </a>
+                <a class="nav-link" href="{{ url_for('getTeachers', subject='Math') }}"> Math </a>
             </li>
             <li class="nav-link">
-                <a class="nav-link" href="/english"> English </a>
+                <a class="nav-link" href="{{ url_for('getTeachers', subject='English') }}"> English </a>
             </li>
             <li class="nav-link">
-                <a class="nav-link" href="/science"> Science </a>
+                <a class="nav-link" href="{{ url_for('getTeachers', subject='Science') }}"> Science </a>
             </li>
             <li class="nav-link">
-                <a class="nav-link" href="/language"> Foreign Language </a>
+                <a class="nav-link" href="{{ url_for('getTeachers', subject='Language') }}"> Foreign Language </a>
             </li>
             <li class="nav-link">
-                <a class="nav-link" href="/history"> History </a>
+                <a class="nav-link" href="{{ url_for('getTeachers', subject='History') }}"> History </a>
             </li>
             <li class="nav-link">
-                <a class="nav-link" href="/ens"> ENS </a>
+                <a class="nav-link" href="{{ url_for('getTeachers', subject='ENS') }}"> ENS </a>
             </li>
             <li class="nav-link">
-                <a class="nav-link" href="/elective"> Electives </a>
+                <a class="nav-link" href="{{ url_for('getTeachers', subject='Elective') }}"> Electives </a>
+            </li>
+            <li class="nav-link">
+                <a class="nav-link" href="/result"> Result </a>
             </li>
             <li class="nav-link">
                 <a class="nav-link" href="/login"> Login </a>
             </li>
             <li class="nav-link">
                 <a class="nav-link" href="/registration"> Register </a>
+            </li>
             <li class="nav-link">
                 <a class="nav-link" href="/profile"> Profile </a>
-            <li class="nav-link">
-                <a class="nav-link" href="/Evaluate"> Evaluate </a>
-            </li>
+        </li>
 
         </ul>
     </div>

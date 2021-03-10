@@ -5,8 +5,8 @@ from register import newuser
 from login import validate
 import requests
 import json
-from create import updatepwd, delete, logOut
-from tdatabase import getData, writeRatingtoTable
+from create import updatepwd, delete
+from tdatabase import getData, writeRatingtoTable, getResultData
 
 app = flask.Flask(__name__)
 app.secret_key = 'mySecretKey'
@@ -27,6 +27,15 @@ def home():
         return flask.render_template("login.html")
 
 
+@app.route('/result')
+def result():
+    subject = request.args.get("subject")
+    if (subject != None):
+        items = getResultData(subject)
+        json_str = json.dumps(items)
+        return flask.render_template("ratingResult.html", teacherList=json_str)
+    else:
+        return flask.render_template("result.html")
 
 
 @app.route('/profile')
@@ -113,11 +122,17 @@ def changepwd():
 
 @app.route('/deleteAccount', methods=['POST'])
 def deleteAccount():
-    return flask.render_template("profile.html", error=delete(request))
+    error = delete(request)
+    if error == 1:
+        session.pop('username')
+        errorMsg = "Account Deleted"
+    else:
+        errorMsg = "UserName or Pwd not correct"
+    return flask.render_template("profile.html", error=errorMsg)
 
 @app.route('/signOut', methods=['POST'])
 def signOut():
-    logOut()
+    session.pop('username', None)
     return flask.render_template("login.html")
 
 @app.route('/star')
@@ -140,11 +155,9 @@ def saveRating():
     teacherID = request.args.get("teacherId")
     teacherName = request.args.get("teacherName")
     teacherRating = request.args.get("rating")
-    if writeRatingtoTable(teacherID, teacherName, teacherRating) == 1:
-        return flask.render_template("rating.html", error=1)
-    else:
-        return flask.render_template("rating.html", error=0)
-
+    userId = session.get("username")
+    result = (writeRatingtoTable(int(teacherID), teacherName, userId, int(teacherRating)))
+    return flask.render_template("rating.html")
 
 
 if __name__ == "__main__":
