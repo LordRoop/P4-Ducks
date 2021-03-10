@@ -81,7 +81,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 * Was able to add get pass data [Get and Post](https://github.com/LordRoop/P4-Ducks/commit/2a90269223a71e830d854eec6f005d4c025d299b)
 * Worked on main UI:[Main CSS](http://76.176.48.196:5671/teachers?subject=Math)  
 * Created comment section and drop down rating system[Evaluation](http://76.176.48.196:5671/math)
-* Worked on the CSS and the esthtics of the code
+* Worked on the ecaluation database https://github.com/LordRoop/P4-Ducks/blob/main/create2.py
 * Was able to meet College Board requirements(Worked on college board implemnetation): https://drive.google.com/file/d/1o27CE_wJgGf1s4DooOijO3A4PqTF_bkE/view?usp=sharing talks about where we are 
 *Able to change some CSS on teacher pages as instructed by the bulls 
 # Log 
