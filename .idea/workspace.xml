@@ -22,7 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="bug">
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="teachers added">
+      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tlist.db" beforeDir="false" afterPath="$PROJECT_DIR$/tlist.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -390,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615417053049</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="teachers added">
+      <created>1615418370074</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1615418370074</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +417,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="math page fixed" />
     <MESSAGE value="math page fixed again" />
     <MESSAGE value="science nav bar fixed" />
     <MESSAGE value="image" />
@@ -434,14 +441,15 @@
     <MESSAGE value="All teachers added" />
     <MESSAGE value="news" />
     <MESSAGE value="bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug" />
+    <MESSAGE value="teachers added" />
+    <option name="LAST_COMMIT_MESSAGE" value="teachers added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tdatabase.py</url>
-          <line>165</line>
+          <line>167</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
@@ -453,7 +461,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/P4_Ducksss123$create2.coverage" NAME="create2 Coverage Results" MODIFIED="1614553156301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/P4_Ducks$main.coverage" NAME="main Coverage Results" MODIFIED="1615417151128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P4_Ducks$main.coverage" NAME="main Coverage Results" MODIFIED="1615418410373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P4_Ducksss123$main.coverage" NAME="main Coverage Results" MODIFIED="1612508126589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P4_Ducksmaster$main.coverage" NAME="main Coverage Results" MODIFIED="1612481122865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/P4_Ducksss123$create.coverage" NAME="create Coverage Results" MODIFIED="1614630068591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
