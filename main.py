@@ -124,6 +124,10 @@ def signOut():
 def star():
     return flask.render_template("star.html")
 
+@app.route('/news')
+def news():
+    return flask.render_template("news.html")
+
 @app.route('/teachers', methods=['GET'])
 def getTeachers():
     subject = request.args.get("subject")
