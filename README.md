@@ -27,7 +27,9 @@ akprathipati - Ak Prathipati
 * Home Page
   - Accessable animated buttons on home page that lead to teacher rating pages for the specific subject [code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/rating.html)
   - Navigation bar contains link to important pages rearding the account
-  - Easter eggs in home page  
+  * Easter eggs in home page 
+  - [AK and Aidan's Easter egg](http://76.176.48.196:5671/)
+  - [Roop and Navodit's Easter Egg](http://76.176.48.196:5671/meme)
 
 
 
