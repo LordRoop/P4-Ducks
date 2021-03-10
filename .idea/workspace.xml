@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="teachers added">
-      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlist.db" beforeDir="false" afterPath="$PROJECT_DIR$/tlist.db" afterDir="false" />
-    </list>
+    <list default="true" id="ac364d45-b762-403b-8bdc-fd59669ef5a7" name="Default Changelist" comment="nav bar fixed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -398,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615418370074</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="nav bar fixed">
+      <created>1615418798779</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1615418798779</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +421,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="math page fixed again" />
     <MESSAGE value="science nav bar fixed" />
     <MESSAGE value="image" />
     <MESSAGE value="stars" />
@@ -442,7 +445,8 @@
     <MESSAGE value="news" />
     <MESSAGE value="bug" />
     <MESSAGE value="teachers added" />
-    <option name="LAST_COMMIT_MESSAGE" value="teachers added" />
+    <MESSAGE value="nav bar fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="nav bar fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
