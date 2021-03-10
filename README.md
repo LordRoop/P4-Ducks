@@ -22,7 +22,7 @@ akprathipati - Ak Prathipati
   - Register page linked with button on Login page.
   - Use of SQLite to make database to store accounts.
   - CSS used for asthetics of background, text font and buttons functional. [code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/home.html)
-  - 
+  
 * Evaluation using star rating system  using Get and POST methods Running code(WOW):
 * http://76.176.48.196:5671/teachers?subject=Math
   - Pulling name of teachers and their subjects from data base. [code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/rating.html)
@@ -39,6 +39,25 @@ akprathipati - Ak Prathipati
   - Easter eggs in home page 
       - [AK and Aidan's Easter egg](http://76.176.48.196:5671/)
       - [Roop and Navodit's Easter Egg](http://76.176.48.196:5671/meme)
+
+# Images of the Site
+
+* Login Page 
+    - ![Screen Shot 2021-03-10 at 3 39 25 PM](https://user-images.githubusercontent.com/54903217/110714111-dc4d8c00-81b7-11eb-94d1-ac1f2f35e4a9.png)
+
+* Home Page
+    - ![Screen Shot 2021-03-10 at 3 37 58 PM](https://user-images.githubusercontent.com/54903217/110714298-fe470e80-81b7-11eb-8870-e616ed7daee3.png)
+
+* Teacher Rating Page
+  - ![Screen Shot 2021-03-10 at 3 38 40 PM](https://user-images.githubusercontent.com/54903217/110714371-19b21980-81b8-11eb-8472-a4f1a904d0e9.png)
+
+* Teacher Ratings
+    - ![Screen Shot 2021-03-10 at 3 39 04 PM](https://user-images.githubusercontent.com/54903217/110714407-29316280-81b8-11eb-90d5-7f0847cbea26.png)
+
+* News Web Api
+    - ![Screen Shot 2021-03-10 at 3 42 06 PM](https://user-images.githubusercontent.com/54903217/110714443-39e1d880-81b8-11eb-8ee7-ebaf63476323.png)
+
+
 
 
 
