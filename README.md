@@ -56,10 +56,10 @@ We are trying to create a rating system for teachers. We will be taking data tha
   * Functions are used to make sure that accounts are being created correctly. One account per email and checking username and password when logging in. 
 
 ## Roop
-* [Meme Page](http://76.176.48.196:5671/meme)
-* Meme page fully completed
-* for loop runs on timer cycling through images
-* Meets collegeboard requirements according to [College Board requirements](https://drive.google.com/file/d/1o27CE_wJgGf1s4DooOijO3A4PqTF_bkE/view?usp=sharing)
+* [Meme Page](http://76.176.48.196:5671/meme) fully completed
+- for loop runs on timer cycling through images
+- Meets collegeboard requirements according to [College Board requirements](https://drive.google.com/file/d/1o27CE_wJgGf1s4DooOijO3A4PqTF_bkE/view?usp=sharing)
+* [Star rating System UI](http://76.176.48.196:5671/teachers?subject=Math) fully completed
 ## Bulls Recommendations
 *Update CSS(done by AK)
 *organize code (Roop and Navodit)
