@@ -98,7 +98,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 
 ## AK
 *Added CSS to Easter egg (http://76.176.48.196:5671/)
-* Was able to add get pass data [Get and Post](https://github.com/LordRoop/P4-Ducks/commit/2a90269223a71e830d854eec6f005d4c025d299b)
+* Was able to add get pass data [Get and Post](https://github.com/LordRoop/P4-Ducks/commit/2a90269223a71e830d854eec6f005d4c025d299b) [More GET and POST demo](https://github.com/LordRoop/P4-Ducks/blob/main/main.py) 
 * Worked on main UI:[Main CSS](http://76.176.48.196:5671/teachers?subject=Math)  
 * Created comment section and drop down rating system[Evaluation](http://76.176.48.196:5671/math)
 * Worked on the ecaluation database https://github.com/LordRoop/P4-Ducks/blob/main/create2.py
