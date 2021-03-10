@@ -13,7 +13,9 @@ akprathipati - Ak Prathipati
   - Register page linked with button on Login page.
   - Use of SQLite to make database to store accounts.
   - CSS used for asthetics of background, text font and buttons.
-* Evaluation using star rating system  using Get and POST methods Running code(WOW): http://76.176.48.196:5671/teachers?subject=Math
+  - 
+* Evaluation using star rating system  using Get and POST methods Running code(WOW):
+* http://76.176.48.196:5671/teachers?subject=Math
   - Pulling name of teachers and their subjects from data base. 
   - Using radio buttons for rating. 
   - Teacher information, login information stored in the database.  
