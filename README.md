@@ -72,7 +72,7 @@ We are trying to create a rating system for teachers. We will be taking data tha
 ## Aidan
 * Added Random Fact Generator Easter Egg API
 * Created [Who Am I Easter Egg](http://76.176.48.196:5671/whoami)
-* Implemented Twitter WEB API to embed twitter profiles to get updated on school's twitter
+* Implemented [Twitter WEB API](http://76.176.48.196:5671/news) to embed twitter profiles to get updated on school's twitter
 * Meets CollegeBoard requirements
 
 ## AK
