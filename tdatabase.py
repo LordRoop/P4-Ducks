@@ -61,6 +61,8 @@ def populateTeachers():
                    ("Hightower Reanna", "Math"),
                    ("Huang Yali", "Math"),
                    ("Titlow Louise", "Math"),
+                   ("Buehler Jo ", "Math"),
+                   ("Jenkins Christopher", "Math"),
                    ("West Briana", "Math"),
                    ("Dafoe Stephanie", "English"),
                    ("Darcey Melissa", "English"),
