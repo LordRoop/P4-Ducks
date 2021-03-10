@@ -63,6 +63,12 @@ We are trying to create a rating system for teachers. We will be taking data tha
 *organize code (Roop and Navodit)
 *Change UI for the teacher page
 
+## Aidan
+* Added Random Fact Generator Easter Egg API
+* Created Who Am I Easter Egg
+* Implemented Twitter WEB API to embed twitter profiles to get updated on school's twitter
+* Meets CollegeBoard requirements
+
 ## AK
 *Added CSS to Easter egg (http://76.176.48.196:5671/)
 * Created Evaluation Page [Evaluation](http://76.176.48.196:5671/Evaluate)
