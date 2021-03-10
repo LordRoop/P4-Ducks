@@ -127,7 +127,7 @@ def deleteAccount():
 def signOut():
     session.pop('username', None)
     return flask.render_template("login.html")
-
+#star rating system
 @app.route('/star')
 def star():
     return flask.render_template("star.html")
@@ -150,6 +150,7 @@ def getTeachers():
     items = getData(subject)
     json_str = json.dumps(items)
     return flask.render_template("rating.html", teacherList=json_str)
+#working on passing data for rating
 
 @app.route('/submitRating', methods=['POST'])
 def saveRating():
@@ -162,5 +163,5 @@ def saveRating():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=' 5006', host='127.0.0.1')
+    app.run(debug=True, port=' 5009', host='127.0.0.1')
 

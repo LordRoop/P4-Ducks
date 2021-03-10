@@ -2,7 +2,7 @@ import sqlite3
 
 #from flask import session
 
-
+#created table
 def createTable() :
     print ("In Create Table")
     conn = sqlite3.connect('user.db')
@@ -22,7 +22,7 @@ def createTable() :
     #Close Connection
     conn.close
 
-
+#will be able make it in form a table
 def writeDummyData():
     conn = sqlite3.connect('user.db')
     # Creating a Cursor
@@ -34,7 +34,7 @@ def writeDummyData():
     conn.commit()
     #Close Connection
     conn.close
-
+#getting data
 def getData():
     conn = sqlite3.connect('user.db')
     # Creating a Cursor
@@ -48,7 +48,7 @@ def getData():
     #Close Connection
     conn.close
 
-
+#passing data
 def checkLogin(request):
     user = request.form['user']
     password = request.form['user_pass']
@@ -100,7 +100,7 @@ def updatepwd(request):
             return "Password Updated"
     else:
         return "Username or Password incorrect"
-
+#This will delete part of CRUD
 def delete(request):
 
     if checkLogin(request) == 1:

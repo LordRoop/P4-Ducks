@@ -1,6 +1,6 @@
 import sqlite3
 import sqlite3
-
+#Will make another table
 def createTable2() :
     print ("In Create Table")
     conn = sqlite3.connect('teacher.db')
@@ -34,6 +34,7 @@ def getData2():
 
     #Close Connection
     conn.close
+    #hi
 
 
 

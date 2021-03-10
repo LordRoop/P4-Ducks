@@ -1,5 +1,5 @@
 import sqlite3
-
+#will look at the login to verify
 from flask import redirect, render_template, session
 from create import checkLogin
 
