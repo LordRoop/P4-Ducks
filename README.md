@@ -15,6 +15,7 @@ akprathipati - Ak Prathipati
 * [Scrum Board](https://github.com/LordRoop/P4-Ducks/projects/1)
 * [AK and Aidan's Easter egg](http://76.176.48.196:5671/)
 * [Roop and Navodit's Easter Egg](http://76.176.48.196:5671/meme)
+* [Website Trailer](https://youtu.be/r-RaiiGy0UA)
 
 # Project Technicals
 * Register and Login
