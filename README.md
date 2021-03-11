@@ -8,6 +8,7 @@ aidanlin4 - Aidan Lin
 akprathipati - Ak Prathipati
 
 # [Link to Site](http://76.176.48.196:5671)
+*Note one u vote, your vote wont be counted twice. So one perosn cant inflate or deflate teachers. 
 
 # Links
 * [Site](http://76.176.48.196:5671)
