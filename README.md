@@ -40,22 +40,36 @@ akprathipati - Ak Prathipati
       - [AK and Aidan's Easter egg](http://76.176.48.196:5671/)
       - [Roop and Navodit's Easter Egg](http://76.176.48.196:5671/meme)
 
+* [App Routes](https://github.com/LordRoop/P4-Ducks/blob/main/main.py)
+
 # Images of the Site
 
 * Login Page 
     - ![Screen Shot 2021-03-10 at 3 39 25 PM](https://user-images.githubusercontent.com/54903217/110714111-dc4d8c00-81b7-11eb-94d1-ac1f2f35e4a9.png)
+    - [link to code](https://github.com/LordRoop/P4-Ducks/blob/main/create.py#L52)
+    - [link to page](http://76.176.48.196:5671/login)
 
 * Home Page
     - ![Screen Shot 2021-03-10 at 3 37 58 PM](https://user-images.githubusercontent.com/54903217/110714298-fe470e80-81b7-11eb-8870-e616ed7daee3.png)
+    - [link to code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/home.html)
+    - [link to page](http://76.176.48.196:5671/)
 
 * Teacher Rating Page
   - ![Screen Shot 2021-03-10 at 3 38 40 PM](https://user-images.githubusercontent.com/54903217/110714371-19b21980-81b8-11eb-8472-a4f1a904d0e9.png)
+  - [link to Html Code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/rating.html)
+  - [link to Python Code](https://github.com/LordRoop/P4-Ducks/blob/main/tdatabase.py)
+  - [link to page](http://76.176.48.196:5671/teachers?subject=Math)
 
 * Teacher Ratings
     - ![Screen Shot 2021-03-10 at 3 39 04 PM](https://user-images.githubusercontent.com/54903217/110714407-29316280-81b8-11eb-90d5-7f0847cbea26.png)
+    - [link to Html Code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/ratingResult.html)
+    - [link to Python Code](https://github.com/LordRoop/P4-Ducks/blob/main/tdatabase.py)
+    - [link to page](http://76.176.48.196:5671/result)
 
 * News Web Api
     - ![Screen Shot 2021-03-10 at 3 42 06 PM](https://user-images.githubusercontent.com/54903217/110714443-39e1d880-81b8-11eb-8ee7-ebaf63476323.png)
+    - [Link to Code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/news.html)
+    - [link to page](http://76.176.48.196:5671/news)
 
 
 
