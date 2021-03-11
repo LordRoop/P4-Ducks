@@ -25,7 +25,7 @@ akprathipati - Ak Prathipati
   
 * Evaluation using star rating system  using Get and POST methods Running code(WOW):
 * http://76.176.48.196:5671/teachers?subject=Math
-  - Pulling name of teachers and their subjects from data base. [code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/rating.html)
+  - Pulling name of teachers and their subjects from data base. [code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/rating.html)|| Teacher name and subject in a list [here](https://github.com/LordRoop/P4-Ducks/blob/main/tdatabase.py#L44)
   - Using radio buttons for rating. 
   - Teacher information, login information stored in the database.  [code](https://github.com/LordRoop/P4-Ducks/blob/main/templates/rating.html)
 * Web Api using twitter about the school district Running Code: http://76.176.48.196:5671/news
